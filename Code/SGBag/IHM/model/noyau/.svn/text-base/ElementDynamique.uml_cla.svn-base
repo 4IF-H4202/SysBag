@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:861e5db6-fe78-4bc2-920c-49400caf12b1'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='ElementDynamique'
+   visibility='public'>
+  <ownedAttribute xmi:uuid='urn:uuid:b197ab2e-c40b-4d21-a548-bf8dac9906ef'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='jetonsTempsDepenses'
+    aggregation='none'
+    visibility='protected'>
+   <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:fbb6ac49-b0fb-4d98-b051-024c536215c9'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:98d40adc-a0f6-4274-b0df-69048acca668'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:ed949c85-3dd0-4655-9163-afd437d7658e'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='vitesse'
+    aggregation='none'
+    visibility='protected'>
+   <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:97edaa7a-05a4-44dd-8756-2252b87cb71e'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:aa44204f-1b9e-4013-a5f7-3c2d5db72870'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:uuid='urn:uuid:1d6dfb64-ad70-41ee-abe6-30216ec7b462'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='NouvelEtat'
+    concurrency='sequential'
+    visibility='package'>
+   <ownedParameter xmi:uuid='urn:uuid:2590fb6d-39b9-4c33-a1ed-b4d02412c9d9'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='jetonsTempsMin'
+     direction='in'>
+    <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:446745d4-717e-48e5-a90a-4a233565a1b6'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='jetonsTempsMax'
+     direction='in'>
+    <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:2d7d41cd-8556-4513-a498-4496db024fd0'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

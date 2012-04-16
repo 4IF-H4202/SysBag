@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:af9cb919-4279-4f1b-9bd4-60d7d9cb097c'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueIntersection'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:f4e0bc5f-8006-42b4-af2e-5873589c71ef'>
+   <general href='urn:uuid:1ea9b6e0-c7df-4af8-ad2f-eecf68133a40'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

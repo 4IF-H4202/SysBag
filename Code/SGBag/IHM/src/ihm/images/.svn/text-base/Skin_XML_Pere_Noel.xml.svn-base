@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skin nom="PereNoel">
+<imgIntersection lien_image="src\\ihm\\images\\SkinPereNoel\\Intersection.png" />
+<imgIntersectionSelection lien_image="src\\ihm\\images\\SkinPereNoel\\Intersection_Selection.png" />
+<imgRail lien_image="src\\ihm\\images\\SkinPereNoel\\Rail_100m.png" />
+<imgBagage lien_image="src\\ihm\\images\\SkinPereNoel\\Bagage.png" />
+<imgChariot lien_image="src\\ihm\\images\\SkinPereNoel\\Chariot.png" />
+<imgChariotSelection lien_image="src\\ihm\\images\\SkinPereNoel\\Chariot_Selection.png" />
+<imgChariotSurbrillance lien_image="src\\ihm\\images\\SkinPereNoel\\ChariotSurbrillance.png" />
+<imgGarage lien_image="src\\ihm\\images\\SkinPereNoel\\Garage.png" />
+<imgGarageSelection lien_image="src\\ihm\\images\\SkinPereNoel\\Garage_Selection.png" />
+<imgTapisRoulant lien_image="src\\ihm\\images\\SkinPereNoel\\TapisRoulant_50m.png" />
+<imgToboggan lien_image="src\\ihm\\images\\SkinPereNoel\\Toboggan_50m.png" />
+<imgDebutCheminPorteurSelection lien_image="src\\ihm\\images\\SkinPereNoel\\IntersectionDebutCheminPorteur_Selection.png" />
+<imgDebutTapisRoulant lien_image="src\\ihm\\images\\SkinPereNoel\\IntersectionDebutTapisRoulant.png" />
+<imgDebutTapisRoulantSurbrillance lien_image="src\\ihm\\images\\SkinPereNoel\\IntersectionDebutTapisRoulantSurbrillance.png" />
+<imgFinToboggan lien_image="src\\ihm\\images\\SkinPereNoel\IntersectionFinToboggan.png\" />
+<imgMenuChariotManuel lien_image="src\\ihm\\images\\SkinPereNoel\\MenuChariotManuel.png" />
+<imgMenuChariotManuel_ChargerBagage lien_image="src\\ihm\\images\\SkinPereNoel\\MenuChariotManuel_ChargerBagage.png" />
+<imgMenuChariotManuel_DechargerBagage lien_image="src\\ihm\\images\\SkinPereNoel\\MenuChariotManuel_DechargerBagage.png" />
+<imgMenuChariotManuel_Direction lien_image="src\\ihm\\images\\SkinPereNoel\\MenuChariotManuel_Direction.png" />
+<listImgEtincelleD>
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle1d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle2d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle3d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle4d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle5d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle6d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle7d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle8d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle9d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle10d.png" />
+</listImgEtincelleD>
+<listImgEtincelleG>
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle1.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle2.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle3.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle4.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle5.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle6.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle7.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle8.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle9.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinPereNoel\\Etincelle10.png" />
+</listImgEtincelleG>
+</skin>

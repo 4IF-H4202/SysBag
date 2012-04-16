@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Association xmi:uuid='urn:uuid:1955f436-4954-4370-b076-3dbd0bb3f16e'
+   isAbstract='false'
+   isDerived='false'
+   isLeaf='false'
+   name='AssociationCheminPorteur_Bagage'
+   visibility='public'>
+  <memberEnd href='urn:uuid:d6d0d6c0-25c0-40e6-890e-e07b82cf2b41'/>
+  <memberEnd href='urn:uuid:cf220c83-5b3f-48a2-b664-0652deaf5623'/>
+  <navigableOwnedEnd href='urn:uuid:cf220c83-5b3f-48a2-b664-0652deaf5623'/>
+  <ownedEnd xmi:uuid='urn:uuid:d6d0d6c0-25c0-40e6-890e-e07b82cf2b41'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name=''
+    aggregation='none'>
+   <association href='urn:uuid:1955f436-4954-4370-b076-3dbd0bb3f16e'/>
+   <type href='urn:uuid:8da1674a-b65e-455f-984a-521f4b0673d6'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:79ab3542-ccc6-4df6-b301-3b073c90055a'
+     value='0'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:e35d70ac-da22-48d7-9ec8-468cbbd1f4ee'
+     value='1'
+     visibility='public'/>
+  </ownedEnd>
+  <ownedEnd xmi:uuid='urn:uuid:cf220c83-5b3f-48a2-b664-0652deaf5623'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='bagagesPortes'
+    aggregation='none'>
+   <association href='urn:uuid:1955f436-4954-4370-b076-3dbd0bb3f16e'/>
+   <type href='urn:uuid:7cd9cbd9-6e51-4d32-b3c8-8b042c649e18'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:6a233ca1-1021-4a08-83d3-1614f28e40fb'
+     value='0'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:7590b0ea-c21f-453e-b75b-156e63a1b852'
+     value='*'
+     visibility='public'/>
+  </ownedEnd>
+ </uml:Association>
+</xmi:XMI>

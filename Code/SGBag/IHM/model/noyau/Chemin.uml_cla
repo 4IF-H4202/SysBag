@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:c48129dc-6f08-4e66-baf6-780c5c8bbbae'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Chemin'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:4989cd55-fba7-473f-aebe-6bda285d2214'>
+   <general href='urn:uuid:3acca8e7-215c-4fac-9754-bfa2897eb518'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:29f8688f-70f4-461d-8dc3-95cecf4e00be'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='longueur'
+    aggregation='none'
+    visibility='protected'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:b9fe52f5-825f-4e71-ae4d-d8038130b56f'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:6beb3847-3048-466d-8ef5-8dab0a14643d'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

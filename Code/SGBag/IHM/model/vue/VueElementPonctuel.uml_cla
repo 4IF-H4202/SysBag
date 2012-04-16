@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:1ea9b6e0-c7df-4af8-ad2f-eecf68133a40'
+   isAbstract='true'
+   isActive='false'
+   isLeaf='false'
+   name='VueElementPonctuel'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:4c523352-cda9-4be6-93f7-9b880cc81e9c'>
+   <general href='urn:uuid:534bec09-4c5e-4f0f-931d-244e0bb22d3d'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:dbf552ce-1eb5-4580-badc-6467720e0214'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='position'
+    aggregation='none'
+    visibility='protected'>
+   <type href='mof:/bibliothequesTiers:uml:NamedElement/Point:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:988e5b8e-8e63-45cf-a245-6c501e09e72f'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:f292894f-9b8e-4f07-8b67-06038496350a'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedComment xmi:uuid='urn:uuid:e422a9fa-6d36-42e7-b74f-426e51d07804'
+    body='Classe abstraite gérant l&apos;affichage des éléments ponctuels (à l&apos;opposé des chemins).&#xa;'/>
+  <ownedOperation xmi:uuid='urn:uuid:446f2f35-d57f-42d0-8b74-ba8921725403'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='EstClicke'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:6c4265b6-4a60-415c-aaf7-639d7c8368fb'
+     body='Indique si les coordonnées en paramètre correspondent à l&apos;élément affiché.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:b63ad1e0-60eb-4b8e-95bc-b0aca9d52cc4'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='x'
+     direction='in'>
+    <type href='mof:/Integer:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1f4d4108-665f-49f9-9aef-8a51525ea439'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:69692bfd-0d0c-4307-9697-14c4ab370da1'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:ede4fa02-8cd7-43f9-8151-fca4008d5b57'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='y'
+     direction='in'>
+    <type href='mof:/Integer:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:9fd32c36-4aed-4793-a881-beda0db1f1a5'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:1a219c62-43e3-4f0b-b945-e25003d8b4ef'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:a1e7a71e-1918-4919-b1b0-04f120d83649'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/boolean:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e4802585-fb4b-464c-a9c2-76a02ed51dd7'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:0cdc1d28-d87d-4493-a4bb-efff9cc878a9'
+      body='Indique si les coordonnées en paramètre correspondent à l&apos;élément affiché.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:1f2b3c34-bae7-4e21-8b38-7e804003f1a3'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:0a974ffa-0f8a-4d1b-b7c8-8be822741d59'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='actualiserInfo'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:b21cea37-2182-4250-903f-b430daf39a98'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:9eac8cde-865d-4118-9051-bfea554ffe13'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:1bcc59fc-cd0d-419b-85cd-e5d90492808c'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:78ea3e25-d5c1-41ee-834d-748a19d2cd3c'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Dessiner'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:acd615a1-0f71-44d9-8d6b-8e520b24e6c2'
+     body='Dessine sur l&apos;objet Graphics en paramètre l&apos;élément.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:9c31aa59-b35c-4ec3-8f1c-37b38cd352df'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='g'
+     direction='in'>
+    <type href='mof:/java:uml:NamedElement/awt:uml:NamedElement/Graphics:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:6b985ac2-abb0-4290-9d28-ca5c7691a8b2'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:53cc9dd0-fcfb-4e72-8a57-ee954b00127f'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:c0376b4e-bf41-47e8-aa3f-feafee145217'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:3ea4dfcf-c088-4385-9fd2-fb91c92cedf7'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:703f6ccb-acdd-43be-a84b-01c98bca27a8'
+      body='Dessine sur l&apos;objet Graphics en paramètre l&apos;élément.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:a92321e9-0db7-447e-8b43-ee77ca55d2ce'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:7a0f7145-7f35-44bb-93f4-790e06d5d308'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='VueElementPonctuel'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:21300771-ec10-42fe-aeb8-3b506de06b88'
+     body='Constructeur de la classe VueElementPonctuel&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:052380d7-ddb8-4eb5-8b5d-f5e95457f50a'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='position'
+     direction='in'>
+    <type href='mof:/bibliothequesTiers:uml:NamedElement/Point:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7fbd670a-6c30-469f-8764-eb19808ab8e9'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:7910ba30-6ca8-4d0f-a275-a7a8598ff4b7'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:c58338c5-7926-4fe9-b8ce-4ab1a176ea54'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='inclinaison'
+     direction='in'>
+    <type href='mof:/Double:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7dfe94c8-7282-428e-8ef9-bbd82f4a7475'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:9a05aa84-1a96-4803-924d-9b893bc5c169'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:7f381bf1-0b74-44c8-837c-c8b3724f7b7f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vueAeroport'
+     direction='in'>
+    <type href='urn:uuid:f5044f55-1bd3-4494-a891-439044fc8df1'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f4d219ca-70c3-4cde-a731-c888c3e5dd13'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:ff67a342-2dc8-46c5-b4b5-5433512e29f9'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

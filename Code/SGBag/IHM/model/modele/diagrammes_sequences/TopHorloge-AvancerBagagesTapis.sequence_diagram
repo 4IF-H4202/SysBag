@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:DI='http://xmlns.omg.org/DI/2.0'>
+  <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+  <DI:Diagram xmi:id='id6359cb32-c90a-4730-b55a-332c5a47f366' zoom='0.0'>
+    <contained xmi:type='DI:GraphNode' xmi:id='ide3f9005e-4649-493b-8096-f9b4345d2aa5'>
+      <contained xmi:type='DI:GraphNode' xmi:id='idc93101a7-3e0a-4864-8717-2cc925ff5d31'>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id1ef91a4c-a620-4445-8ed6-ec7904019680'>
+        <contained xmi:type='DI:GraphNode' xmi:id='idb416d70a-115d-46b3-b360-b16e2d810e72'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='AttributeList'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='id8be5aec8-5683-494c-bb3d-51cf8ac996e5'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='OperationList'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id7abd5370-b26b-43a5-972d-b5a612f129a0'>
+        <contained xmi:type='DI:GraphNode' xmi:id='id3bf4d5cb-ad72-4d9c-a0de-10eea29deb99'>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Component'/>
+          <size height='8.225261706437684E-20' width='8.225261706437684E-20'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='idf7cb58ba-1625-4bef-b3be-4d79a46a99bb'>
+          <contained xmi:type='DI:GraphNode' xmi:id='id4a045ff1-e2a2-4fa8-a760-06a9b332a137'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id54208c1e-6db5-4cd0-b01b-c529be158e16'>
+              <contained xmi:type='DI:GraphNode' xmi:id='idaa8a19c3-fb97-4246-bc7a-735fa2336cb9'>
+                <anchorage xmi:id='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f' graphEdge='id1ccbda4e-4871-4ebb-8d70-d3dbfc7e743b id222ac5d7-738f-4601-83f3-e1e147b14104 id5d4ae53b-208f-43fd-88ff-282984f54730 id7ca552f2-425a-405c-a368-669740d0722a id942082ff-f60f-43d3-9b6c-79e53e421457 ida1f9aaf8-8c2b-418d-8e98-2c4799bb5ae1 idb419c309-a860-42ea-b1fd-af608bffd24a idd5f3aaa8-07ee-437b-8d5f-d03eecd55a55 iddb3a2909-4e2e-4c57-8ef9-ce3e95bbea26 iddfa2bc28-275f-4f2b-9196-9c0ed17081f0'/>
+                <position x='42.0' y='53.9521484375'/>
+                <property key='fontColor' value='#0'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='showSelector' value='false'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='925.2119'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:18287b45-2414-48be-ba1a-06ec6482b6ad'/>
+                <size height='925.2119140625' width='16.0'/>
+              </contained>
+              <contained xmi:type='DI:GraphNode' xmi:id='id472c7972-964f-4012-9403-6c3a4dec00f7'>
+                <anchorage xmi:id='idd376ef9d-65c5-4a83-ac93-176e2b005561' graphEdge='ida1f9aaf8-8c2b-418d-8e98-2c4799bb5ae1'/>
+                <position x='47.33333206176758' y='88.29306030273438'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='showSelector' value='false'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='fontColor' value='#0'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='0.0'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:706065a2-8bf9-4dfc-abea-d0bb5790a2b9'/>
+                <size height='23.0' width='16.0'/>
+              </contained>
+              <contained xmi:type='DI:GraphNode' xmi:id='idf7ea3f3b-0d5b-4214-b348-bc1c09be2c1e'>
+                <anchorage xmi:id='id9fc9c454-09d6-4581-a747-83e43379f67f' graphEdge='id942082ff-f60f-43d3-9b6c-79e53e421457'/>
+                <position x='47.33333206176758' y='135.00006103515625'/>
+                <property key='fontColor' value='#0'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='showSelector' value='false'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='0.0'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:08a0d86e-ce46-44e3-90ec-ec1695a2015a'/>
+                <size height='23.0' width='16.0'/>
+              </contained>
+              <contained xmi:type='DI:GraphNode' xmi:id='id6bf06f72-0b0c-464d-a940-09ec6bf50c1e'>
+                <anchorage xmi:id='idcbe592eb-c15f-48cb-8cb3-81a8bf6ee35e' graphEdge='idd5f3aaa8-07ee-437b-8d5f-d03eecd55a55'/>
+                <position x='47.33333206176758' y='439.1640930175781'/>
+                <property key='fontColor' value='#0'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='showSelector' value='false'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='0.0'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:73c31b3c-a8a9-4451-bb59-1da7b9461c63'/>
+                <size height='23.0' width='16.0'/>
+              </contained>
+              <contained xmi:type='DI:GraphNode' xmi:id='idfc04e4c3-c8d2-4ed6-acfa-34e4eba94e76'>
+                <anchorage xmi:id='id2a79d5e1-ec54-455d-804c-c9afcc5837ba' graphEdge='iddb3a2909-4e2e-4c57-8ef9-ce3e95bbea26'/>
+                <position x='47.33333206176758' y='649.1640625'/>
+                <property key='fontColor' value='#0'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='showSelector' value='false'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='0.0'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:97df6454-8345-4d6f-8b58-bea7aa95728b'/>
+                <size height='23.0' width='16.0'/>
+              </contained>
+              <contained xmi:type='DI:GraphNode' xmi:id='id4ee440a1-76bc-4d68-ba53-7eee47df3698'>
+                <anchorage xmi:id='id8b9856fc-e6c4-4fc4-b452-f14bdbdce45a' graphEdge='iddfa2bc28-275f-4f2b-9196-9c0ed17081f0'/>
+                <position x='47.33333206176758' y='906.1640625'/>
+                <property key='fontColor' value='#0'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='showSelector' value='false'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='0.0'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:589ebb22-a2fb-4dbf-b007-1dfb8e3d25dc'/>
+                <size height='23.0' width='16.0'/>
+              </contained>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='CHILDREN_NODE'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='id3b8a40d4-b2ab-4485-bfa4-1704645ff4ef'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='HEADER_NODE'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='id4fa226c7-1936-4819-9c1a-b7947be7ffe5'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='LINE_NODE'/>
+            </contained>
+            <position x='45.0000114440918' y='154.1640625'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='showSelector' value='false'/>
+            <property key='fillColor' value='#ffefb5'/>
+            <property key='secondaryColor' value='#ffc684'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Lifeline:urn:uuid:18086ded-2f67-4d0f-b064-2c7d85d7472f'/>
+            <size height='1039.1640625' width='100.0'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='idff4987a4-99f3-43c5-b7aa-7d08013c02f8'>
+            <anchorage xmi:id='id94e5ff99-ab7d-4904-bb8c-57c9bc586440' graphEdge='id33882bcf-0f43-4789-b1b2-e5593dc41d0c'/>
+            <contained xmi:type='DI:GraphNode' xmi:id='id3ce7e96f-04fe-4f7d-9a3c-d1112a9c88ad'>
+              <position x='0.0' y='4.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+            </contained>
+            <position x='44.99998092651367' y='443.3280944824219'/>
+            <property key='CombinedFragment.NAME' value='loop1'/>
+            <property key='CombinedFragment.OPERATOR' value='loop'/>
+            <property key='CombinedFragment.OPERAND_0_GUARD' value='[ bagage != null ]'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fillColor' value='#ffc684'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='uml:CombinedFragment:loop'/>
+            <size height='120.0' width='236.16661071777344'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='id6b5305b5-06d3-4085-9623-f402572fc37b'>
+            <anchorage xmi:id='id36c497ea-fdd9-419a-b7f3-d2de31edbd32' graphEdge='id8d5ce238-e3d8-4d84-988b-cf28292b9880'/>
+            <contained xmi:type='DI:GraphNode' xmi:id='id4aa51663-04ba-4ad9-8a28-78cadd565b98'>
+              <position x='0.0' y='10.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+            </contained>
+            <position x='44.99997329711914' y='638.3280639648438'/>
+            <property key='CombinedFragment.NAME' value='alt3'/>
+            <property key='CombinedFragment.OPERATOR' value='alt'/>
+            <property key='CombinedFragment.OPERAND_0_GUARD' value='[ dernierBagage != null ]'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fillColor' value='#ffc684'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='uml:CombinedFragment:alt'/>
+            <size height='225.0' width='371.1693420410156'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='id942082ff-f60f-43d3-9b6c-79e53e421457' anchor='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f id9fc9c454-09d6-4581-a747-83e43379f67f'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id28398cb3-b8a6-422f-8f07-2c6b935b7012'>
+              <position x='4.0' y='4.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='synchCall'/>
+            <property key='fontColor' value='#0'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#646464'/>
+            <property key='lineWidth' value='1.0'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:f705c4cc-48f2-44d7-a0c2-1860b295eead'/>
+            <waypoint x='103.00001525878906' y='281.16412353515625'/>
+            <waypoint x='124.33332824707031' y='281.16412353515625'/>
+            <waypoint x='124.33332824707031' y='289.16412353515625'/>
+            <waypoint x='108.33334350585938' y='289.16412353515625'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='idd5f3aaa8-07ee-437b-8d5f-d03eecd55a55' anchor='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f idcbe592eb-c15f-48cb-8cb3-81a8bf6ee35e'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id734fbb43-882b-4d6b-9b16-b880b7a69f65'>
+              <position x='4.0' y='-3.6739501953125'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='synchCall'/>
+            <property key='fontColor' value='#0'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#646464'/>
+            <property key='lineWidth' value='1.0'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:4dcf1016-6971-4388-9130-faeabcd847c2'/>
+            <waypoint x='103.00001525878906' y='585.328125'/>
+            <waypoint x='124.33332824707031' y='585.328125'/>
+            <waypoint x='124.33332824707031' y='593.328125'/>
+            <waypoint x='108.33334350585938' y='593.328125'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='id0bd46e57-3ea9-4b23-82b0-946549c7c025'>
+            <anchorage xmi:id='ida5e86687-e514-427b-9db1-383849475c99' graphEdge='idc73c8cd3-0f82-4e00-aac8-ac4ab1b66c35'/>
+            <contained xmi:type='DI:GraphNode' xmi:id='idabbed0eb-5baf-4bdc-b273-cf8a50b8898f'>
+              <position x='55.1693115234375' y='6.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+            </contained>
+            <position x='56.1693115234375' y='743.328125'/>
+            <property key='CombinedFragment.NAME' value='alt4'/>
+            <property key='CombinedFragment.OPERATOR' value='alt'/>
+            <property key='CombinedFragment.OPERAND_0_GUARD' value='[ (positionDernier - distance) &lt; distanceBagages ]'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fillColor' value='#ffc684'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='uml:CombinedFragment:alt'/>
+            <size height='104.99993896484375' width='344.9973449707031'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='iddb3a2909-4e2e-4c57-8ef9-ce3e95bbea26' anchor='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f id2a79d5e1-ec54-455d-804c-c9afcc5837ba'>
+            <contained xmi:type='DI:GraphNode' xmi:id='idb9f9b425-188c-47ae-881f-8dc58b1807fc'>
+              <position x='2.783294677734375' y='-3.30023193359375'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='synchCall'/>
+            <property key='fontColor' value='#0'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#646464'/>
+            <property key='lineWidth' value='1.0'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:9c680f4b-a368-4465-a267-f41cc7e3d0e7'/>
+            <waypoint x='103.00001525878906' y='795.328125'/>
+            <waypoint x='124.33332824707031' y='795.328125'/>
+            <waypoint x='124.33332824707031' y='803.328125'/>
+            <waypoint x='108.33334350585938' y='803.328125'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='idbe40558c-ac7f-4629-b0c7-fc51e1abe379'>
+            <contained xmi:type='DI:GraphNode' xmi:id='idabea7826-df0b-4bf0-8248-a97ffec3fed3'>
+              <position x='0.0' y='6.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+            </contained>
+            <position x='45.00010681152344' y='878.3280639648438'/>
+            <property key='CombinedFragment.NAME' value='loop4'/>
+            <property key='CombinedFragment.OPERATOR' value='loop'/>
+            <property key='CombinedFragment.OPERAND_0_GUARD' value='[ positionBagage >= 0 ]'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fillColor' value='#ffc684'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='uml:CombinedFragment:loop'/>
+            <size height='225.00006103515625' width='521.1666259765625'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='iddfa2bc28-275f-4f2b-9196-9c0ed17081f0' anchor='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f id8b9856fc-e6c4-4fc4-b452-f14bdbdce45a'>
+            <contained xmi:type='DI:GraphNode' xmi:id='idbc92cca9-926a-4138-ad63-c1c9397e8340'>
+              <position x='10.785491943359375' y='-5.231689453125'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='synchCall'/>
+            <property key='fontColor' value='#0'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#646464'/>
+            <property key='lineWidth' value='1.0'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:b089f556-d5e8-4096-92c9-240a1a5bc4a7'/>
+            <waypoint x='103.00001525878906' y='1052.328125'/>
+            <waypoint x='124.33332824707031' y='1052.328125'/>
+            <waypoint x='124.33332824707031' y='1060.328125'/>
+            <waypoint x='108.33334350585938' y='1060.328125'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='ida1f9aaf8-8c2b-418d-8e98-2c4799bb5ae1' anchor='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f idd376ef9d-65c5-4a83-ac93-176e2b005561'>
+            <contained xmi:type='DI:GraphNode' xmi:id='idc2ad3670-0ddf-4cc4-ba5f-f74de425a9cd'>
+              <position x='4.0' y='4.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='synchCall'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineColor' value='#646464'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineWidth' value='1.0'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:da4904d8-4751-439b-a01c-094558f74276'/>
+            <waypoint x='103.00001525878906' y='234.45712280273438'/>
+            <waypoint x='124.33332824707031' y='234.45712280273438'/>
+            <waypoint x='124.33332824707031' y='242.45712280273438'/>
+            <waypoint x='108.33334350585938' y='242.45712280273438'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='id14c0b8b0-be65-47ac-954e-618383a35c7e'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id045bd709-71ea-4e26-9731-b696a96734da'>
+              <contained xmi:type='DI:GraphNode' xmi:id='id8fbd45fa-07f7-490e-a378-3531299ea1d9'>
+                <anchorage xmi:id='ida46f13a7-e8d9-48f3-aaf0-fca53f4635a1' graphEdge='id222ac5d7-738f-4601-83f3-e1e147b14104 idb419c309-a860-42ea-b1fd-af608bffd24a'/>
+                <position x='42.0' y='364.1640625'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='showSelector' value='false'/>
+                <property key='fontColor' value='#0'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='0.0'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:3e6fa41f-4066-4c85-880d-ff32c3c9c4fc'/>
+                <size height='23.0' width='16.0'/>
+              </contained>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='CHILDREN_NODE'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='id909d4b4f-fe6e-495c-b95a-02597fd96779'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='HEADER_NODE'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='id1647516f-8013-46ed-9e86-8a14edf0bf7d'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='LINE_NODE'/>
+            </contained>
+            <position x='176.1666259765625' y='154.1640625'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='showSelector' value='false'/>
+            <property key='fontColor' value='#0'/>
+            <property key='fillColor' value='#ffefb5'/>
+            <property key='secondaryColor' value='#ffc684'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Lifeline:urn:uuid:a516e4a7-4df9-4e2a-b89a-7075d6a6bb86'/>
+            <size height='1024.1640625' width='100.0'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='idb7fc99ee-0321-4817-98e0-4ba2bcc26b19'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id3c4a1100-57c3-47d4-bb70-c53f5da858cc'>
+              <contained xmi:type='DI:GraphNode' xmi:id='id6084a314-16c4-4860-861a-bddb920bdfb3'>
+                <anchorage xmi:id='id6a5f58b1-f508-422b-a5d6-25e3397e1103' graphEdge='id1ccbda4e-4871-4ebb-8d70-d3dbfc7e743b id7ca552f2-425a-405c-a368-669740d0722a'/>
+                <position x='52.00140380859375' y='544.1640014648438'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='showSelector' value='false'/>
+                <property key='fontColor' value='#0'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='0.0'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:bfb89da0-c531-4a12-b62b-b58375fa606c'/>
+                <size height='23.0' width='16.0'/>
+              </contained>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='CHILDREN_NODE'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='iddc4d30a8-087e-45cd-ae17-3def4484fc2d'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='HEADER_NODE'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='idb5d6c6c9-99bd-4e53-8b91-6bd6b6257770'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='LINE_NODE'/>
+            </contained>
+            <position x='296.1665344238281' y='154.1640625'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='showSelector' value='false'/>
+            <property key='fontColor' value='#0'/>
+            <property key='fillColor' value='#ffefb5'/>
+            <property key='secondaryColor' value='#ffc684'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Lifeline:urn:uuid:d53fcf74-09bc-4a0b-9510-eda50c913175'/>
+            <size height='1024.1640625' width='120.0028076171875'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='idb364bc48-2cc2-4fa8-9612-cbc0c26be7c9'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id675f21d3-c012-4adb-b7ab-fabcee564cbe'>
+              <contained xmi:type='DI:GraphNode' xmi:id='id58a404aa-188e-4ecd-b46d-69f60fa11115'>
+                <anchorage xmi:id='id650b1734-5c46-4da8-990c-e6b54b6282ed' graphEdge='id5d4ae53b-208f-43fd-88ff-282984f54730'/>
+                <position x='59.501312255859375' y='874.1641235351562'/>
+                <property key='font' value='SansSerif,plain,11'/>
+                <property key='lineWidth' value='1.0'/>
+                <property key='showSelector' value='false'/>
+                <property key='fontColor' value='#0'/>
+                <property key='fillColor' value='#ffefb5'/>
+                <property key='secondaryColor' value='#ffc684'/>
+                <property key='lineColor' value='#a5a5a5'/>
+                <property key='ExecutionOccurrence.MANUAL_RESIZE_HEIGHT_PROPERTY' value='0.0'/>
+                <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:BehaviorExecutionSpecification:urn:uuid:8009d0a8-f571-4dd7-8e4b-ec919d9bdede'/>
+                <size height='23.0' width='16.0'/>
+              </contained>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='CHILDREN_NODE'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='idcdea9dc5-89c8-4297-b672-0409cba477d8'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='HEADER_NODE'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='ide7e3223b-4fad-4979-a6c7-3140f0389ff3'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='LINE_NODE'/>
+            </contained>
+            <position x='431.1693420410156' y='154.1640625'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='showSelector' value='false'/>
+            <property key='fontColor' value='#0'/>
+            <property key='fillColor' value='#ffefb5'/>
+            <property key='secondaryColor' value='#ffc684'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Lifeline:urn:uuid:d8458333-342f-4ed8-b2e4-1553e6765bf8'/>
+            <size height='1009.1640625' width='135.00262451171875'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='idb419c309-a860-42ea-b1fd-af608bffd24a' anchor='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f ida46f13a7-e8d9-48f3-aaf0-fca53f4635a1'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id06b3c5f7-7b33-43c0-92a6-0ee0df8e76cd'>
+              <position x='-83.21461486816406' y='-25.26861572265625'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='synchCall'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineColor' value='#646464'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:0354cc9a-0167-4de4-a5eb-8a4fd73053f2'/>
+            <waypoint x='103.00001525878906' y='518.328125'/>
+            <waypoint x='218.1666259765625' y='518.328125'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='id222ac5d7-738f-4601-83f3-e1e147b14104' anchor='ida46f13a7-e8d9-48f3-aaf0-fca53f4635a1 id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id3ef2aae3-e075-40bb-8fa4-ad4e2c71365e'>
+              <position x='-24.5' y='-26.59564208984375'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='reply'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineColor' value='#646464'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:16971774-3086-4ae6-92f8-b46159d9aa47'/>
+            <waypoint x='218.1666259765625' y='541.328125'/>
+            <waypoint x='103.00001525878906' y='541.328125'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='id5d4ae53b-208f-43fd-88ff-282984f54730' anchor='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f id650b1734-5c46-4da8-990c-e6b54b6282ed'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id88af5145-f75c-4bce-82e8-a52e13bfc86e'>
+              <position x='-104.88739013671875' y='-23.881591796875'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='synchCall'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineColor' value='#646464'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:22dbec89-b5fd-4f34-b913-9c09c6ee602c'/>
+            <waypoint x='103.00001525878906' y='1028.3280029296875'/>
+            <waypoint x='490.670654296875' y='1028.328125'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='id7ca552f2-425a-405c-a368-669740d0722a' anchor='id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f id6a5f58b1-f508-422b-a5d6-25e3397e1103'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id21c7e27f-bc8b-43cb-8a78-2b37a8c36aa3'>
+              <position x='-39.9644775390625' y='-17.12579345703125'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='synchCall'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineColor' value='#646464'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:2c2d3601-a0f5-41dc-b140-6aad8616d3e4'/>
+            <waypoint x='103.00001525878906' y='698.3280639648438'/>
+            <waypoint x='348.1679382324219' y='698.3280639648438'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='id1ccbda4e-4871-4ebb-8d70-d3dbfc7e743b' anchor='id6a5f58b1-f508-422b-a5d6-25e3397e1103 id9cbbf6e6-27e7-4546-8ecf-9b4e093ad60f'>
+            <contained xmi:type='DI:GraphNode' xmi:id='iddde9bb19-f346-459a-bbc2-22d768eb4a54'>
+              <position x='-41.192901611328125' y='-17.47216796875'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <property key='oracle.uml.v2.sequence.MessageLinkImage.MESSAGE_SORT_GRAPHIC_PROPERTY' value='reply'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='fontColor' value='#0'/>
+            <property key='lineColor' value='#646464'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Message:urn:uuid:e9355cac-25bc-4e14-bdeb-a46da3ff8854'/>
+            <waypoint x='348.1679382324219' y='721.3280639648438'/>
+            <waypoint x='103.00001525878906' y='721.3280639648438'/>
+          </contained>
+          <position x='29.999893188476562' y='154.1640625'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='EXPANDED'/>
+        <size height='1089.0' width='675.1693725585938'/>
+      </contained>
+      <position x='68.8305435180664' y='149.99998474121094'/>
+      <property key='showPackage' value='false'/>
+      <property key='showStereotype' value='false'/>
+      <property key='showAttributeVisibility' value='true'/>
+      <property key='excludeAttrFilter' value=''/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='sortMethodsAlpha' value='true'/>
+      <property key='filterAttrViz' value='PUBLIC PROTECTED PACKAGE PRIVATE'/>
+      <property key='sortAttributesAlpha' value='true'/>
+      <property key='showMethodStatic' value='true'/>
+      <property key='fontColor' value='#0'/>
+      <property key='showMethodVisibility' value='true'/>
+      <property key='fillColor' value='#ffefb5'/>
+      <property key='showOperations' value='true'/>
+      <property key='excludeMethodFilter' value=''/>
+      <property key='showAttributeStatic' value='true'/>
+      <property key='showMethodType' value='true'/>
+      <property key='showAttributeType' value='true'/>
+      <property key='filterMethodViz' value='PUBLIC PROTECTED PACKAGE PRIVATE'/>
+      <property key='operationShowParameters' value='0'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <property key='layoutLifelines' value='false'/>
+      <property key='showAttributes' value='true'/>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Interaction:urn:uuid:1c3137f7-9a03-4efb-9257-996ee2d54edf' presentation='EXPANDED'/>
+      <size height='1089.0' width='675.1693725585938'/>
+    </contained>
+    <contained xmi:type='DI:GraphNode' xmi:id='id36d973e9-f0f4-46b1-9792-aeccd519b09d'>
+      <position x='134.99998474121094' y='960.0'/>
+      <property key='text' value='&lt;html>&#xa;  &lt;head>&#xa;    &#xa;  &lt;/head>&#xa;  &lt;body>&#xa;    &lt;p>&#xa;      &lt;font face=&quot;SansSerif&quot; color=&quot;#000000&quot; size=&quot;3&quot;>On sort le premier &#xa;      bagage &amp;quot;nouveauBagage&amp;quot; de la liste des bagages en attente, et on &#xa;      l&apos;ajoute &amp;#224; la liste des bagages port&amp;#233;s par le tapis. Si il n&apos;y a plus de &#xa;      bagages dans la liste en attente, on s&apos;arr&amp;#234;te.&lt;/font>&#xa;    &lt;/p>&#xa;  &lt;/body>&#xa;&lt;/html>&#xa;'/>
+      <property key='fontColor' value='#0'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='fillColor' value='#d6ffd6'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Note'/>
+      <size height='59.999996185302734' width='420.00006103515625'/>
+    </contained>
+    <contained xmi:type='DI:GraphNode' xmi:id='id98b954b5-89d2-44ab-8f78-38b39cbd2f5e'>
+      <position x='105.0000228881836' y='360.0'/>
+      <property key='text' value='&lt;html>&#xa;  &lt;head>&#xa;    &#xa;  &lt;/head>&#xa;  &lt;body>&#xa;    &lt;p>&#xa;      &lt;font face=&quot;SansSerif&quot; color=&quot;#000000&quot; size=&quot;3&quot;>Si il n&apos;y a plus de &#xa;      bagage port&amp;#233;s sur le tapis roulant, on en ajoute un de la liste en &#xa;      attente&lt;/font>&#xa;    &lt;/p>&#xa;  &lt;/body>&#xa;&lt;/html>&#xa;'/>
+      <property key='fontColor' value='#0'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='fillColor' value='#d6ffd6'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Note'/>
+      <size height='75.00001525878906' width='254.99998474121094'/>
+    </contained>
+    <contained xmi:type='DI:GraphNode' xmi:id='id75acb9db-82de-48ef-a4c2-4eb9e46b2db6'>
+      <anchorage xmi:id='iddab446ed-8faa-47ba-8a35-863ff1449db0' graphEdge='id33882bcf-0f43-4789-b1b2-e5593dc41d0c'/>
+      <position x='-135.0' y='450.0'/>
+      <property key='text' value='&lt;html>&#xa;  &lt;head>&#xa;    &#xa;  &lt;/head>&#xa;  &lt;body>&#xa;    &lt;p>&#xa;      &lt;font face=&quot;SansSerif&quot; color=&quot;#000000&quot; size=&quot;3&quot;>Parcours de l&apos;ensemble &#xa;      des bagages port&amp;#233;s par le tapis&lt;/font>&#xa;    &lt;/p>&#xa;  &lt;/body>&#xa;&lt;/html>&#xa;'/>
+      <property key='fontColor' value='#0'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='fillColor' value='#d6ffd6'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Note'/>
+      <size height='74.99998474121094' width='150.0000457763672'/>
+    </contained>
+    <contained xmi:type='DI:GraphEdge' xmi:id='id33882bcf-0f43-4789-b1b2-e5593dc41d0c' anchor='iddab446ed-8faa-47ba-8a35-863ff1449db0 id94e5ff99-ab7d-4904-bb8c-57c9bc586440'>
+      <property key='EdgeType' value='1'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineColor' value='#646464'/>
+      <property key='fontColor' value='#0'/>
+      <property key='lineWidth' value='1.0'/>
+      <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Attachment'/>
+      <waypoint x='15.000045776367188' y='478.68609619140625'/>
+      <waypoint x='76.91670227050781' y='478.68609619140625'/>
+      <waypoint x='76.91670227050781' y='478.0406494140625'/>
+      <waypoint x='93.83062744140625' y='478.0406494140625'/>
+    </contained>
+    <contained xmi:type='DI:GraphNode' xmi:id='idb3df716b-081e-4b57-a698-bfae26dfa03a'>
+      <anchorage xmi:id='idf025631f-8f04-4533-b28f-b3d2c784d250' graphEdge='id8d5ce238-e3d8-4d84-988b-cf28292b9880'/>
+      <position x='-135.0' y='630.0'/>
+      <property key='text' value='&lt;html>&#xa;  &lt;head>&#xa;    &#xa;  &lt;/head>&#xa;  &lt;body>&#xa;    &lt;p>&#xa;      &lt;font face=&quot;SansSerif&quot; color=&quot;#000000&quot; size=&quot;3&quot;>Si il y a au moins un &#xa;      bagage port&amp;#233; par le tapis : on r&amp;#233;cup&amp;#232;re le dernier&lt;/font>&#xa;    &lt;/p>&#xa;  &lt;/body>&#xa;&lt;/html>&#xa;'/>
+      <property key='fontColor' value='#0'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='fillColor' value='#d6ffd6'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Note'/>
+      <size height='74.99999237060547' width='150.0000457763672'/>
+    </contained>
+    <contained xmi:type='DI:GraphEdge' xmi:id='id8d5ce238-e3d8-4d84-988b-cf28292b9880' anchor='idf025631f-8f04-4533-b28f-b3d2c784d250 id36c497ea-fdd9-419a-b7f3-d2de31edbd32'>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='fontColor' value='#0'/>
+      <property key='EdgeType' value='1'/>
+      <property key='lineColor' value='#646464'/>
+      <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Attachment'/>
+      <waypoint x='15.000045776367188' y='681.9976196289062'/>
+      <waypoint x='93.83062744140625' y='681.9976196289062'/>
+    </contained>
+    <contained xmi:type='DI:GraphNode' xmi:id='iddbd0b788-32c5-43b1-a64c-68ea20638a1b'>
+      <anchorage xmi:id='idbd3946c7-eac9-4dd1-ad0e-175fae1f590d' graphEdge='idc73c8cd3-0f82-4e00-aac8-ac4ab1b66c35'/>
+      <position x='-120.0' y='735.0'/>
+      <property key='text' value='&lt;html>&#xa;  &lt;head>&#xa;    &#xa;  &lt;/head>&#xa;  &lt;body>&#xa;    &lt;p>&#xa;      &lt;font face=&quot;SansSerif&quot; color=&quot;#000000&quot; size=&quot;3&quot;>Ajustement de la &#xa;      position du nouveau bagage par rapport &amp;#224; la position du dernier bagage &#xa;      sur le tapis&lt;/font>&#xa;    &lt;/p>&#xa;  &lt;/body>&#xa;&lt;/html>&#xa;'/>
+      <property key='fontColor' value='#0'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='fillColor' value='#d6ffd6'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Note'/>
+      <size height='90.00000762939453' width='165.0000457763672'/>
+    </contained>
+    <contained xmi:type='DI:GraphEdge' xmi:id='idc73c8cd3-0f82-4e00-aac8-ac4ab1b66c35' anchor='idbd3946c7-eac9-4dd1-ad0e-175fae1f590d ida5e86687-e514-427b-9db1-383849475c99'>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='fontColor' value='#0'/>
+      <property key='EdgeType' value='1'/>
+      <property key='lineColor' value='#646464'/>
+      <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Attachment'/>
+      <waypoint x='45.00004577636719' y='797.3916015625'/>
+      <waypoint x='75.0' y='797.3916015625'/>
+      <waypoint x='75.0' y='798.30859375'/>
+      <waypoint x='104.99996185302734' y='798.30859375'/>
+    </contained>
+    <property key='showNonNavigable' value='false'/>
+    <property key='maxEntriesInShape' value='10'/>
+    <property key='showGrid' value='true'/>
+    <property key='minLayoutDistance' value='40'/>
+    <property key='maxShapeWidth' value='200'/>
+    <property key='DiagramLayoutStyle' value='1'/>
+    <property key='showNavIconWhenBothEnds' value='false'/>
+    <property key='antialiasText' value='true'/>
+    <property key='ContainerLayoutStyle' value='1'/>
+    <property key='showClassifierOwnedEnds' value='false'/>
+    <property key='gridSize' value='15'/>
+    <property key='EdgeCrossingType' value='0'/>
+    <property key='snapToGrid' value='true'/>
+    <property key='PageOrientation' value='0'/>
+    <property key='PaperOrientation' value='Landscape'/>
+    <property key='PrintAreaX' value='0.0'/>
+    <property key='PrintAreaY' value='0.0'/>
+    <property key='PrintAreaWidth' value='0.0'/>
+    <property key='PrintAreaHeight' value='0.0'/>
+    <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='sequence_diagram'/>
+  </DI:Diagram>
+</xmi:XMI>

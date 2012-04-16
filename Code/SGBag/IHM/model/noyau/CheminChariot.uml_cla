@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:6bda6985-7909-4229-9d09-c4078ac3a83a'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='CheminChariot'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:d674339e-c0ee-4638-acd8-0e3208e50f87'>
+   <general href='urn:uuid:c48129dc-6f08-4e66-baf6-780c5c8bbbae'/>
+  </generalization>
+  <ownedOperation xmi:uuid='urn:uuid:96cb5411-184c-4f6a-9d4c-3943b1f650f7'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='AvancerChariots'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:e24e3c86-5b40-43bc-bbd1-c4c4b6d6948d'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='jetonsTemps'
+     direction='in'>
+    <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:ccff7001-5529-43b5-bc5b-7fb68946a6f4'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:4f812458-1016-4cf3-9f74-b023d749bcbe'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='GetChariotQueue'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:458a0705-7f30-448b-98d4-bca9da06c389'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:78af5bff-01b3-4d5e-a343-bc79befceb6a'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:8d260a04-3fdf-4b3d-b34d-dcd69dbf9ec6'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='avancerChariots'
+    concurrency='sequential'
+    visibility='private'>
+   <ownedParameter xmi:uuid='urn:uuid:77fcc186-dfd7-45c8-a918-c773f2db8d2b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='position'
+     direction='in'>
+    <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:9ad0dfa5-eb3c-4cf6-a8ac-0967f3ef5e99'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='distanceSecu'
+     direction='in'>
+    <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:070adda2-a18a-454e-9df0-85c70da57cd1'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='chariot'
+     direction='in'/>
+   <ownedParameter xmi:uuid='urn:uuid:193f16de-be9f-43df-82a4-27caf1a49e76'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='chariotSuiv'
+     direction='in'/>
+   <ownedParameter xmi:uuid='urn:uuid:c6b20d72-61f5-4dc0-95c4-09a0e0425e80'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:27275727-9e9c-4378-979c-def25e16087f'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='TapisRoulant'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:1387f948-9eae-4dd0-8db8-252d56ba77c5'>
+   <general href='urn:uuid:325ba5bf-bc9e-425d-85da-ba9f75ddd002'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

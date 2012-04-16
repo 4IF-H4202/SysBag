@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:e000fd6b-286f-429e-9b34-bbd63e681abf'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='SGBag'
+   visibility='public'>
+  <ownedAttribute xmi:uuid='urn:uuid:538c2c6d-6fd1-48a2-843a-1f267ed5ff01'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    aggregation='none'>
+   <type href='urn:uuid:24a3c72d-2a0b-4f01-8d61-c1e9c2614311'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:011fff66-4327-4892-a2a1-2faa58233f4c'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    aggregation='none'>
+   <type href='urn:uuid:2228b79e-a1ad-4707-a267-3cfdcb01d452'/>
+  </ownedAttribute>
+  <ownedComment xmi:uuid='urn:uuid:b31e5345-5ed2-45ae-aa0a-22ccd256096e'
+    body='uml_uc:Subject'/>
+ </uml:Class>
+</xmi:XMI>

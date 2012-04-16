@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:baf6814b-540b-4354-85e0-15802be1e7df'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueIntersection'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:c6c2f918-fa08-4d9f-8885-0d063eeb5e8d'>
+   <general href='urn:uuid:7fdd8d70-e619-4a50-86af-2a00b8bb745f'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:c37a500a-a02c-4447-aadb-4747ae2b11fa'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='intersection'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/Intersection:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:048c6ec2-e957-487a-b015-1a9e932b24cc'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:2b04f3f9-ff72-4150-9c0f-59e7ee31b3de'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

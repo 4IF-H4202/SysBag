@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:2228b79e-a1ad-4707-a267-3cfdcb01d452'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Réclamations'
+   visibility='public'>
+  <useCase href='urn:uuid:56a27c56-a680-4c59-a74e-ccdc5d20c74c'/>
+  <useCase href='urn:uuid:d66c1ea7-10a2-4a02-af21-792795fd6e87'/>
+  <ownedComment xmi:uuid='urn:uuid:6c942676-0e41-4ba0-aab1-e564a9f35aea'
+    body='uml_uc:Subject'/>
+ </uml:Class>
+</xmi:XMI>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:325ba5bf-bc9e-425d-85da-ba9f75ddd002'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='CheminPorteur'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:3deceba2-e969-4812-8c8f-762ef40dd10b'>
+   <general href='urn:uuid:b9fa4b4e-6c31-4176-a1fc-242fbf341cc2'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

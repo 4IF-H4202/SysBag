@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:25c6c1c2-b48e-4185-9906-a602bea60d1a'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='CapteurActif'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:1e3c5600-8ffa-458d-b91b-c2949b3e88b9'>
+   <general href='urn:uuid:ea321f58-2cfc-4533-96ec-6a1e5a0c523b'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

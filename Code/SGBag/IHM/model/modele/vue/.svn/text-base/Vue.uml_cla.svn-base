@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:7fdd8d70-e619-4a50-86af-2a00b8bb745f'
+   isAbstract='true'
+   isActive='false'
+   isLeaf='false'
+   name='Vue'
+   visibility='public'>
+  <ownedAttribute xmi:uuid='urn:uuid:68d11058-1fc4-40fc-b83d-3a2d70eec04f'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='selectionne'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/boolean:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:b9e89390-538d-42c0-81e1-3b39f1abc997'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:26e59fd9-ae8d-40bb-a114-8373d371e1f0'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:uuid='urn:uuid:8e6d43d9-ea31-4784-8a68-efbf63e31a4d'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='dessiner'
+    concurrency='sequential'
+    visibility='package'>
+   <ownedParameter xmi:uuid='urn:uuid:2caf4673-3ac5-477a-9b3d-25de610f3e2d'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='g'
+     direction='in'>
+    <type href='mof:/Graphics:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:3830d355-8954-46bf-a4a3-d761c7108360'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:72e29e5e-a152-4eeb-94e0-50e9afdd36b8'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='estCliquee'
+    concurrency='sequential'
+    visibility='package'>
+   <ownedParameter xmi:uuid='urn:uuid:e5661c15-ff44-44ac-9d57-4a9718c66226'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='x'
+     direction='in'>
+    <type href='mof:/int:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:1a18b496-965b-4471-bd54-3a2a4847979f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='y'
+     direction='in'>
+    <type href='mof:/int:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:d7afc4ba-5663-45dd-8b69-bfa8acbea539'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/boolean:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:4e0cacd0-4daf-478c-a9a5-a627eebdc622'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='preciserSelection'
+    concurrency='sequential'
+    visibility='package'>
+   <ownedParameter xmi:uuid='urn:uuid:e0a83e4d-a300-40d3-b834-a86185d37f52'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='sel'
+     direction='in'>
+    <type href='mof:/boolean:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:ba242e5c-6e0b-477e-bba4-a6130e653944'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

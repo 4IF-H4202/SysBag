@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:34fdd9ed-2b8d-4acf-bd8e-13c5b1e49d3e'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Intersection'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:3106f2be-5ef1-4548-ac89-d7fe7b39ceda'>
+   <general href='urn:uuid:3acca8e7-215c-4fac-9754-bfa2897eb518'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:1add6b0a-7a38-4005-8e8c-223cfece3edb'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='point'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/Point:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:855ef09c-fb72-4243-8d11-141d028e50c9'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:314c974e-39a8-4984-9ea5-185162faed60'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:bbd21660-d1ed-47e3-822f-48ab3c16560e'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='deplace'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Boolean'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f85f79db-c59b-4c52-b29f-5885853217e0'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:c4d7f5b3-5f82-435a-aef5-f372de457c9e'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

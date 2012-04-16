@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dev-oo/!svn/ver/493/trunk/SGBag/IHM/model/modele/diagrammes_sequences
+END
+CollaborationAjoutBagageManuel.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/dev-oo/!svn/ver/406/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationAjoutBagageManuel.uml_col
+END
+GestionBagageManuel.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/dev-oo/!svn/ver/491/trunk/SGBag/IHM/model/modele/diagrammes_sequences/GestionBagageManuel.sequence_diagram
+END
+CollaborationTopHorloge-AvancerChariot.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge-AvancerChariot.uml_col
+END
+CollaborationConstructeurVueMenuChoixDirection.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/dev-oo/!svn/ver/419/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationConstructeurVueMenuChoixDirection.uml_col
+END
+CollaborationXML_VueAeroport.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/dev-oo/!svn/ver/444/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationXML_VueAeroport.uml_col
+END
+CollaborationTopHorloge.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge.uml_col
+END
+TopHorloge_Intersection_retirerBagage.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Intersection_retirerBagage.sequence_diagram
+END
+package.uml_pck
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dev-oo/!svn/ver/72/trunk/SGBag/IHM/model/modele/diagrammes_sequences/package.uml_pck
+END
+TopHorloge_Rail_GetDistanceProchainChariot.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Rail_GetDistanceProchainChariot.sequence_diagram
+END
+TopHorloge - GenererBagagesAuto.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/dev-oo/!svn/ver/322/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge%20-%20GenererBagagesAuto.sequence_diagram
+END
+ClicAjoutBagageManuel.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/dev-oo/!svn/ver/484/trunk/SGBag/IHM/model/modele/diagrammes_sequences/ClicAjoutBagageManuel.sequence_diagram
+END
+CollaborationVueAeroport.SurbrillanceTR.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/dev-oo/!svn/ver/447/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationVueAeroport.SurbrillanceTR.uml_col
+END
+CollaborationTopHorloge_Rail_GetDistanceProchainChariot.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge_Rail_GetDistanceProchainChariot.uml_col
+END
+CollaborationTopHorloge_Intersection_deposerBagage.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/dev-oo/!svn/ver/438/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge_Intersection_deposerBagage.uml_col
+END
+CollaborationTopHorloge_Chariot_RetirerBagage.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/dev-oo/!svn/ver/438/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge_Chariot_RetirerBagage.uml_col
+END
+TopHorloge-Boite_Noire.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/dev-oo/!svn/ver/474/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge-Boite_Noire.sequence_diagram
+END
+TopHorloge-Dessiner.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dev-oo/!svn/ver/446/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge-Dessiner.uml_col
+END
+GestionBagageManuel2.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/dev-oo/!svn/ver/385/trunk/SGBag/IHM/model/modele/diagrammes_sequences/GestionBagageManuel2.sequence_diagram
+END
+TopHorloge-AvancerBagage.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/dev-oo/!svn/ver/418/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge-AvancerBagage.sequence_diagram
+END
+ClicAjoutBagageManuel.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/dev-oo/!svn/ver/479/trunk/SGBag/IHM/model/modele/diagrammes_sequences/ClicAjoutBagageManuel.png
+END
+CollaborationPoserBagage.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/dev-oo/!svn/ver/417/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationPoserBagage.uml_col
+END
+CollaborationTopHorloge-AvancerBagagesToboggan.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/dev-oo/!svn/ver/431/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge-AvancerBagagesToboggan.uml_col
+END
+TopHorloge_Chariot_DeposerBagage.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Chariot_DeposerBagage.sequence_diagram
+END
+CollaborationAeroport.poserBagageSurToboggan.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/dev-oo/!svn/ver/442/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationAeroport.poserBagageSurToboggan.uml_col
+END
+CollaborationVueAeroport.deselectionnerTout.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/dev-oo/!svn/ver/445/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationVueAeroport.deselectionnerTout.uml_col
+END
+ChargementXML.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/dev-oo/!svn/ver/444/trunk/SGBag/IHM/model/modele/diagrammes_sequences/ChargementXML.sequence_diagram
+END
+CollaborationClicPrendreBagage.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/dev-oo/!svn/ver/417/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationClicPrendreBagage.uml_col
+END
+CollaborationSelectElement.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/dev-oo/!svn/ver/414/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationSelectElement.uml_col
+END
+CollaborationTopHorloge_Intersection_retirerBagage.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/dev-oo/!svn/ver/438/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge_Intersection_retirerBagage.uml_col
+END
+TopHorloge-AvancerChariot.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/dev-oo/!svn/ver/493/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge-AvancerChariot.sequence_diagram
+END
+TopHorloge_Chariot_DeposerBagage.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/dev-oo/!svn/ver/450/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Chariot_DeposerBagage.png
+END
+CollaborationTopHorloge_Intersection_AvancerChariot.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge_Intersection_AvancerChariot.uml_col
+END
+TopHorloge_Chariot_RetirerBagage.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Chariot_RetirerBagage.sequence_diagram
+END
+CollaborationAeroport.ajouterCheminATrajetChariot.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/dev-oo/!svn/ver/442/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationAeroport.ajouterCheminATrajetChariot.uml_col
+END
+CollaborationTopHorloge-BoiteNoire.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/dev-oo/!svn/ver/422/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge-BoiteNoire.uml_col
+END
+DessinElements.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/dev-oo/!svn/ver/476/trunk/SGBag/IHM/model/modele/diagrammes_sequences/DessinElements.sequence_diagram
+END
+CollaborationGestionBagageManuel_clicVoieGarage.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/dev-oo/!svn/ver/443/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationGestionBagageManuel_clicVoieGarage.uml_col
+END
+TopHorloge-AvancerBagagesToboggan.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/dev-oo/!svn/ver/431/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge-AvancerBagagesToboggan.sequence_diagram
+END
+TopHorloge_Intersection_AvancerChariot.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Intersection_AvancerChariot.sequence_diagram
+END
+CollaborationClicAjoutBagageManuelBoiteNoire.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/dev-oo/!svn/ver/479/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationClicAjoutBagageManuelBoiteNoire.uml_col
+END
+TopHorloge.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dev-oo/!svn/ver/485/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge.sequence_diagram
+END
+ClicAjoutBagageManuel2.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/dev-oo/!svn/ver/385/trunk/SGBag/IHM/model/modele/diagrammes_sequences/ClicAjoutBagageManuel2.sequence_diagram
+END
+CollaborationTopHorloge_Intersection_GetDistanceProchainChariot.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge_Intersection_GetDistanceProchainChariot.uml_col
+END
+TopHorloge_Rail_AvancerChariot.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Rail_AvancerChariot.sequence_diagram
+END
+CollaborationTopHorloge_Chariot_DeposerBagage.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/dev-oo/!svn/ver/438/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge_Chariot_DeposerBagage.uml_col
+END
+CollaborationTopHorloge-AvancerBagagesTapis.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge-AvancerBagagesTapis.uml_col
+END
+CollaborationTopHorloge-GenererBagagesAuto.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/dev-oo/!svn/ver/280/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge-GenererBagagesAuto.uml_col
+END
+TopHorloge-AvancerBagagesTapis.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/dev-oo/!svn/ver/490/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge-AvancerBagagesTapis.sequence_diagram
+END
+TopHorloge_Intersection_deposerBagage.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Intersection_deposerBagage.sequence_diagram
+END
+CollaborationAeroport.PrendreBagageDuTapisRoulant.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/dev-oo/!svn/ver/442/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationAeroport.PrendreBagageDuTapisRoulant.uml_col
+END
+CollaborationTopHorloge_Rail_AvancerChariot.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTopHorloge_Rail_AvancerChariot.uml_col
+END
+TopHorloge_Intersection_GetDistanceProchainChariot.sequence_diagram
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/dev-oo/!svn/ver/482/trunk/SGBag/IHM/model/modele/diagrammes_sequences/TopHorloge_Intersection_GetDistanceProchainChariot.sequence_diagram
+END
+CollaborationClicDirection.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/dev-oo/!svn/ver/440/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationClicDirection.uml_col
+END
+CollaborationTest.uml_col
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/dev-oo/!svn/ver/322/trunk/SGBag/IHM/model/modele/diagrammes_sequences/CollaborationTest.uml_col
+END

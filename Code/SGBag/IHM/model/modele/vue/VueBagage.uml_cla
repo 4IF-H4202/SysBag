@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:cce3d7c6-e6e8-48c2-bdfa-7acb3172d215'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueBagage'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:ac0779ae-8de0-4a80-a80b-5cab6b4830fe'>
+   <general href='urn:uuid:7fdd8d70-e619-4a50-86af-2a00b8bb745f'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:70b8b90f-24b2-4d42-a377-a526c48d4ef2'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='bagage'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/Bagage:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:78746f60-a18e-43a0-aeb9-8dbb89d8c453'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3bc1ae25-caa6-41b7-aa01-cdd2c9c7d676'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

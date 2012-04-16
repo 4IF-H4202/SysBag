@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Actor xmi:uuid='urn:uuid:822c8e8e-d126-4bf7-b6e5-8021268a7bbf'
+   isAbstract='false'
+   isLeaf='false'
+   name='Resp technique'
+   visibility='public'/>
+</xmi:XMI>

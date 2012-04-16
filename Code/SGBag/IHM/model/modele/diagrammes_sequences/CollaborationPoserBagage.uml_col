@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Collaboration xmi:uuid='urn:uuid:b644c9af-eeee-4c24-b19e-086f9e20f755'
+   isAbstract='false'
+   isLeaf='false'
+   name='CollaborationPoserBagage'
+   visibility='public'>
+  <collaborationRole href='urn:uuid:c8dedfc4-3ff9-4a75-8f96-47e912315b6d'/>
+  <collaborationRole href='urn:uuid:cd0fa094-5662-4057-848d-ce146fe8629c'/>
+  <collaborationRole href='urn:uuid:1a466fc1-9c54-49c9-9619-91dcbff21d29'/>
+  <collaborationRole href='urn:uuid:06bc1a55-a8e3-4bc4-9b80-39692288ed63'/>
+  <collaborationRole href='urn:uuid:4ecb139a-6416-4fa7-a6e3-48435dcff506'/>
+  <collaborationRole href='urn:uuid:7b2941b3-9e24-44dc-8554-8d6a5c588729'/>
+  <collaborationRole href='urn:uuid:1cf5a743-b120-4fd7-8bd8-fce7374dd870'/>
+  <collaborationRole href='urn:uuid:ce00fa4f-c93c-4121-829d-837d250bd916'/>
+  <collaborationRole href='urn:uuid:613c07f7-3622-4170-b293-24dfc132b6b0'/>
+  <ownedAttribute xmi:uuid='urn:uuid:c8dedfc4-3ff9-4a75-8f96-47e912315b6d'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Superviseur'
+    aggregation='none'/>
+  <ownedAttribute xmi:uuid='urn:uuid:cd0fa094-5662-4057-848d-ce146fe8629c'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Fenêtre Principale'
+    aggregation='none'/>
+  <ownedAttribute xmi:uuid='urn:uuid:1a466fc1-9c54-49c9-9619-91dcbff21d29'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Vue Aéroport'
+    aggregation='none'/>
+  <ownedAttribute xmi:uuid='urn:uuid:06bc1a55-a8e3-4bc4-9b80-39692288ed63'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Vue Menu'
+    aggregation='none'/>
+  <ownedAttribute xmi:uuid='urn:uuid:4ecb139a-6416-4fa7-a6e3-48435dcff506'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Vue Chariot'
+    aggregation='none'/>
+  <ownedAttribute xmi:uuid='urn:uuid:7b2941b3-9e24-44dc-8554-8d6a5c588729'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Vue Toboggan'
+    aggregation='none'/>
+  <ownedAttribute xmi:uuid='urn:uuid:1cf5a743-b120-4fd7-8bd8-fce7374dd870'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Aéroport'
+    aggregation='none'/>
+  <ownedAttribute xmi:uuid='urn:uuid:ce00fa4f-c93c-4121-829d-837d250bd916'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Chariot'
+    aggregation='none'/>
+  <ownedAttribute xmi:uuid='urn:uuid:613c07f7-3622-4170-b293-24dfc132b6b0'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Toboggan'
+    aggregation='none'/>
+  <ownedBehavior xmi:type='uml:Interaction' xmi:uuid='urn:uuid:f4e455a3-bf81-4062-a816-c7173df83198'
+    isAbstract='false'
+    isActive='false'
+    isLeaf='false'
+    isReentrant='false'
+    name='Gestion Bagage Manuel clic poser bagage'
+    visibility='public'>
+   <lifeline xmi:uuid='urn:uuid:8eaebe96-6b86-460e-a333-079252d05011'
+     name='Lifeline1'>
+    <represents href='urn:uuid:c8dedfc4-3ff9-4a75-8f96-47e912315b6d'/>
+   </lifeline>
+   <lifeline xmi:uuid='urn:uuid:0a72c5b0-f1c9-41b2-a17c-df8eb94a1c58'
+     name='Lifeline2'>
+    <represents href='urn:uuid:cd0fa094-5662-4057-848d-ce146fe8629c'/>
+   </lifeline>
+   <lifeline xmi:uuid='urn:uuid:cb1fb080-f094-444e-954c-9df15bcbf23a'
+     name='Lifeline3'>
+    <represents href='urn:uuid:1a466fc1-9c54-49c9-9619-91dcbff21d29'/>
+   </lifeline>
+   <lifeline xmi:uuid='urn:uuid:0ca947d2-1eb2-4c8e-ae58-8fca8e8ec7e5'
+     name='Lifeline4'>
+    <represents href='urn:uuid:06bc1a55-a8e3-4bc4-9b80-39692288ed63'/>
+   </lifeline>
+   <lifeline xmi:uuid='urn:uuid:fd2878d6-d580-4d35-b8a7-8b5350a373e0'
+     name='Lifeline5'>
+    <represents href='urn:uuid:4ecb139a-6416-4fa7-a6e3-48435dcff506'/>
+   </lifeline>
+   <lifeline xmi:uuid='urn:uuid:e09966b2-debb-4283-900d-033a34d8bdc6'
+     name='Lifeline6'>
+    <represents href='urn:uuid:7b2941b3-9e24-44dc-8554-8d6a5c588729'/>
+   </lifeline>
+   <lifeline xmi:uuid='urn:uuid:474808a8-98a9-4a85-883f-9699e66adeed'
+     name='Lifeline7'>
+    <represents href='urn:uuid:1cf5a743-b120-4fd7-8bd8-fce7374dd870'/>
+   </lifeline>
+   <lifeline xmi:uuid='urn:uuid:3148ea33-b5aa-47fc-98cd-8d62802c3cc1'
+     name='Lifeline8'>
+    <represents href='urn:uuid:ce00fa4f-c93c-4121-829d-837d250bd916'/>
+   </lifeline>
+   <lifeline xmi:uuid='urn:uuid:ca4a6519-d795-4e53-8726-b3ddbc2b71fd'
+     name='Lifeline9'>
+    <represents href='urn:uuid:613c07f7-3622-4170-b293-24dfc132b6b0'/>
+   </lifeline>
+  </ownedBehavior>
+ </uml:Collaboration>
+</xmi:XMI>

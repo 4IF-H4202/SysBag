@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:7cd9cbd9-6e51-4d32-b3c8-8b042c649e18'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Bagage'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:2f325ad5-fbd0-486e-8b29-5333a11553de'>
+   <general href='urn:uuid:3acca8e7-215c-4fac-9754-bfa2897eb518'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:8c831ace-b5e7-4b17-9688-26ef2414b221'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='poids'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:8d4ef927-930a-40ca-9b85-5774ab3a6a12'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:04a08dbc-7701-451d-a667-0101901a13d3'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:f782cc84-e817-4f11-9e68-1e6bd003dca5'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='position'
+    aggregation='none'
+    visibility='protected'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:d494d022-ea27-4f67-824c-6414dc664efa'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:af959056-c8f7-4687-b8bb-a25f508808ec'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:uuid='urn:uuid:9aa7d8b9-9b1f-4ca3-b402-432d47052aeb'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Avancer'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:c3b86863-8531-4841-b994-7e5da4cf9fec'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='progression'
+     direction='in'>
+    <type href='mof:/Double:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:5b5f6095-0259-4189-b867-b88c27de3f7f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='positionLimite'
+     direction='in'>
+    <type href='mof:/Double:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:c96b4ede-76a4-4467-809a-12e963b3ed52'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/Double:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

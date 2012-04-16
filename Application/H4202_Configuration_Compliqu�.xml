@@ -1,0 +1,169 @@
+	<ihm.FenetrePrincipale nbHeures="20" nbMin="24" nbSec="45">
+	<noyau.Aeroport id="0" largeur="26" longueur="46" distanceSecu="2.00" lambdaPoisson="1">
+		<noyau.Intersection id="1" x="12" y="2" />
+		<noyau.Intersection id="2" x="17" y="2" />
+		<noyau.Intersection id="3" x="17" y="7" />
+		<noyau.Intersection id="4" x="12" y="7" />
+		<noyau.Intersection id="5" x="22" y="1" />
+		<noyau.Intersection id="6" x="23" y="7" />
+		<noyau.Intersection id="25" x="3" y="2" />
+		<noyau.Intersection id="7" x="2" y="2" />
+		<noyau.Intersection id="27" x="2" y="7" />
+		<noyau.Intersection id="26" x="7" y="12" />
+		<noyau.Intersection id="28" x="7" y="15" />
+		<noyau.Intersection id="29" x="12" y="12" />
+		<noyau.Intersection id="30" x="16" y="12" />
+		<noyau.Intersection id="99" x="17" y="12" />
+		<noyau.Intersection id="31" x="2" y="12" />
+		<noyau.Intersection id="32" x="20" y="12" />
+		<noyau.Intersection id="33" x="23" y="9" />
+		<noyau.Intersection id="34" x="18" y="15" />
+		<noyau.Intersection id="36" x="16" y="15" />
+		<noyau.Intersection id="37" x="11" y="15" />
+		
+		<noyau.Intersection id="41" x="2" y="20" />
+		<noyau.Intersection id="42" x="2" y="25" />
+		<noyau.Intersection id="43" x="7" y="20" />
+		<noyau.Intersection id="44" x="15" y="20" />
+		<noyau.Intersection id="45" x="18" y="25" />
+		<noyau.Intersection id="46" x="21" y="21" />
+		<noyau.Intersection id="47" x="30" y="15" />
+		<noyau.Intersection id="48" x="30" y="25" />
+		<noyau.Intersection id="49" x="33" y="7" />
+		<noyau.Intersection id="50" x="30" y="2" />
+		<noyau.Intersection id="51" x="25" y="1" />
+		<noyau.Intersection id="52" x="36" y="2" />
+		<noyau.Intersection id="53" x="40" y="2" />
+		<noyau.Intersection id="54" x="44" y="1" />
+		<noyau.Intersection id="55" x="40" y="7" />
+		<noyau.Intersection id="56" x="33" y="9" />
+		<noyau.Intersection id="57" x="33" y="15" />
+		<noyau.Intersection id="58" x="40" y="15" />
+		<noyau.Intersection id="59" x="38" y="18" />
+		<noyau.Intersection id="60" x="40" y="25" />
+		<noyau.Intersection id="61" x="25" y="15" />
+		<noyau.Intersection id="62" x="30" y="9" />
+
+		<noyau.Rail id="60" idDepart="42" idArrivee="43"/>
+		<noyau.Rail id="61" idDepart="44" idArrivee="45" />
+		<noyau.Rail id="62" idDepart="45" idArrivee="42" />
+		<noyau.Rail id="63" idDepart="45" idArrivee="34" />
+		<noyau.Rail id="64" idDepart="34" idArrivee="61" />
+		<noyau.Rail id="65" idDepart="61" idArrivee="47"/>
+		<noyau.Rail id="66" idDepart="32" idArrivee="61"/>
+		<noyau.Rail id="67" idDepart="47" idArrivee="62"/>
+		<noyau.Rail id="68" idDepart="62" idArrivee="49"/>
+		<noyau.Rail id="69" idDepart="49" idArrivee="50"/>
+		<noyau.Rail id="70" idDepart="50" idArrivee="52"/>
+		<noyau.Rail id="71" idDepart="52" idArrivee="53"/>
+		<noyau.Rail id="72" idDepart="53" idArrivee="55"/>
+		<noyau.Rail id="73" idDepart="55" idArrivee="49"/>
+		<noyau.Rail id="74" idDepart="47" idArrivee="57"/>
+		<noyau.Rail id="75" idDepart="57" idArrivee="58"/>
+		<noyau.Rail id="76" idDepart="58" idArrivee="60"/>
+		<noyau.Rail id="77" idDepart="60" idArrivee="48"/>
+		<noyau.Rail id="78" idDepart="48" idArrivee="45"/>
+		<noyau.Rail id="79" idDepart="47" idArrivee="48"/>
+		<noyau.Rail id="80" idDepart="49" idArrivee="56"/>
+		<noyau.Rail id="81" idDepart="49" idArrivee="52"/>
+		<noyau.Rail id="82" idDepart="49" idArrivee="58"/>
+		
+		<noyau.Rail id="7" idDepart="1" idArrivee="2"/>
+		<noyau.Rail id="8" idDepart="2" idArrivee="3" />
+		<noyau.Rail id="9" idDepart="3" idArrivee="4" />
+		<noyau.Rail id="10" idDepart="4" idArrivee="1" />
+		<noyau.Rail id="11" idDepart="1" idArrivee="3" />
+		<noyau.Rail id="26" idDepart="27" idArrivee="7"/>
+		<noyau.Rail id="29" idDepart="4" idArrivee="29"/>
+		<noyau.Rail id="39" idDepart="29" idArrivee="26"/>
+		<noyau.Rail id="30" idDepart="26" idArrivee="27"/>
+		<noyau.Rail id="31" idDepart="4" idArrivee="27"/>
+		<noyau.Rail id="49" idDepart="3" idArrivee="99"/>
+		<noyau.Rail id="50" idDepart="27" idArrivee="1"/>
+		<noyau.Rail id="51" idDepart="99" idArrivee="32"/>
+		<noyau.Rail id="52" idDepart="32" idArrivee="34"/>
+		<noyau.Rail id="53" idDepart="34" idArrivee="36"/>
+		<noyau.Rail id="54" idDepart="99" idArrivee="34"/>
+		<noyau.Rail id="55" idDepart="36" idArrivee="29"/>
+		<noyau.Rail id="57" idDepart="30" idArrivee="99"/>
+		<noyau.Rail id="58" idDepart="7" idArrivee="25"/>
+		<noyau.Rail id="83" idDepart="56" idArrivee="57"/>
+
+		
+
+		
+		<noyau.TapisRoulant id="17" idDepart="6" idArrivee="3" distanceBagages="1" limiteBagages="4.5" vitesse="5">
+			<noyau.Bagage id="12" position="1" poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="13" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="14" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="15" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="16" position="1"  poids="30" idVol="18" status="attente"/>
+		</noyau.TapisRoulant>
+		<noyau.TapisRoulant id="18" idDepart="28" idArrivee="26" distanceBagages="1" limiteBagages="2" vitesse="5">
+			<noyau.Bagage id="12" position="1" poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="13" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="14" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="15" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="16" position="1"  poids="30" idVol="18" status="attente"/>
+		</noyau.TapisRoulant>
+		<noyau.TapisRoulant id="119" idDepart="33" idArrivee="32" distanceBagages="1" limiteBagages="2" vitesse="5">
+			<noyau.Bagage id="112" position="1" poids="30" idVol="18" status="attente"/>
+		</noyau.TapisRoulant>
+		<noyau.TapisRoulant id="120" idDepart="46" idArrivee="45" distanceBagages="1" limiteBagages="2" vitesse="5">
+			<noyau.Bagage id="113" position="1" poids="30" idVol="18" status="attente"/>
+		</noyau.TapisRoulant>
+		<noyau.TapisRoulant id="121" idDepart="51" idArrivee="50" distanceBagages="1" limiteBagages="2" vitesse="5">
+			<noyau.Bagage id="112" position="1" poids="30" idVol="18" status="attente"/>
+		</noyau.TapisRoulant>
+		<noyau.TapisRoulant id="122" idDepart="59" idArrivee="58" distanceBagages="1" limiteBagages="2" vitesse="5">
+			<noyau.Bagage id="112" position="1" poids="30" idVol="18" status="attente"/>
+		</noyau.TapisRoulant>
+		
+		<noyau.VoieGarage id="240" idDepart="25" idArrivee="1"/>
+		<noyau.VoieGarage id="241" idDepart="30" idArrivee="29"/>
+		<noyau.VoieGarage id="242" idDepart="43" idArrivee="44"/>
+		
+		<noyau.Toboggan id="190" idDepart="2" idArrivee="5" nbBagages="35" idVol="20" distanceBagages="0.75" limiteBagages="0.5" vitesse="5"/>
+		<noyau.Toboggan id="191" idDepart="27" idArrivee="31" nbBagages="35" idVol="19" distanceBagages="0.75" limiteBagages="0.5" vitesse="5"/>
+		<noyau.Toboggan id="192" idDepart="36" idArrivee="37" nbBagages="35" idVol="18" distanceBagages="0.75" limiteBagages="0.5" vitesse="5"/>
+		<noyau.Toboggan id="193" idDepart="42" idArrivee="41" nbBagages="35" idVol="21" distanceBagages="0.75" limiteBagages="0.5" vitesse="5"/>
+		<noyau.Toboggan id="194" idDepart="53" idArrivee="54" nbBagages="35" idVol="20" distanceBagages="0.75" limiteBagages="0.5" vitesse="5"/>
+	
+		
+		<noyau.Chariot id="20" action="garerChariot" positionRail="0" vitesse="5" vitesseTapis="1" idChemin="240"/>
+		<noyau.Chariot id="21" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="1" idChemin="240"/>
+		<noyau.Chariot id="30" action="garerChariot" positionRail="0" vitesse="5" vitesseTapis="1" idChemin="240"/>
+		<noyau.Chariot id="31" action="garerChariot" positionRail="3" vitesse="6" vitesseTapis="1" idChemin="240"/>
+		<noyau.Chariot id="35" action="garerChariot" positionRail="5" vitesse="5" vitesseTapis="5" idChemin="240"/>
+		<noyau.Chariot id="36" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="240"/>
+		<noyau.Chariot id="37" action="garerChariot" positionRail="0" vitesse="4" vitesseTapis="5" idChemin="241"/>
+		<noyau.Chariot id="38" action="garerChariot" positionRail="3" vitesse="4" vitesseTapis="5" idChemin="241"/>
+		<noyau.Chariot id="39" action="garerChariot" positionRail="0" vitesse="4" vitesseTapis="5" idChemin="241">
+			<noyau.Bagage id="20" position="1" poids="30" idVol="18"/>
+		</noyau.Chariot>
+		<noyau.Chariot id="23" action="garerChariot" positionRail="0" vitesse="7" vitesseTapis="5" idChemin="241"/>
+		<noyau.Chariot id="24" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="241"/>
+		<noyau.Chariot id="25" action="garerChariot" positionRail="0" vitesse="3" vitesseTapis="5" idChemin="241"/>
+		<noyau.Chariot id="26" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="241"/>
+		<noyau.Chariot id="27" action="garerChariot" positionRail="0" vitesse="4" vitesseTapis="5" idChemin="240"/>
+		<noyau.Chariot id="28" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="240"/>
+		<noyau.Chariot id="29" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="240"/>
+		<noyau.Chariot id="40" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="41" action="garerChariot" positionRail="0" vitesse="9" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="42" action="garerChariot" positionRail="0" vitesse="4" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="43" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="44" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="45" action="garerChariot" positionRail="0" vitesse="9" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="46" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="47" action="garerChariot" positionRail="0" vitesse="4" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="48" action="garerChariot" positionRail="0" vitesse="3" vitesseTapis="5" idChemin="242"/>
+		<noyau.Chariot id="49" action="garerChariot" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="242"/>
+	
+		<noyau.Vol id="18" nom="AFK277" nbBagagesMax="51"/>
+		<noyau.Vol id="19" nom="JP234" nbBagagesMax="51"/>
+		<noyau.Vol id="20" nom="NY777" nbBagagesMax="51"/>
+		<noyau.Vol id="21" nom="CH221" nbBagagesMax="51"/>
+		
+
+	</noyau.Aeroport>
+	</ihm.FenetrePrincipale>

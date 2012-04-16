@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:867197a0-f923-496f-94d2-1ab0b67def79'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueChariot'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:9731ab6a-b2b1-499c-9b24-816cda44c244'>
+   <general href='urn:uuid:7fdd8d70-e619-4a50-86af-2a00b8bb745f'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:b4ace032-c257-4558-973b-34ca2923b254'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='chariot'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/Chariot:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f9aee932-4454-4b1a-a4b0-df9531e6030c'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3ad3b50e-617a-4462-b95d-84d0e93e520c'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

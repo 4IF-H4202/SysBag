@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:ad1c9634-e336-47e9-88f6-70cbdd589d07'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueTapisRoulant'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:b1b5ef34-b1df-4802-bce9-d972bb62744c'>
+   <general href='urn:uuid:7fdd8d70-e619-4a50-86af-2a00b8bb745f'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:f231f2db-a0bc-4f49-ab3a-c21a5464f3d1'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='tapisRoulant'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/TapisRoulant:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ee0d01f7-c482-423b-87b6-956feeb2dfca'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:2b930398-5af4-4351-b247-07a4f1de4c37'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

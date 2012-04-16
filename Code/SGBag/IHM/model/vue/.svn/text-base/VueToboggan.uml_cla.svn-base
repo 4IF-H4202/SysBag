@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:d60a2cf5-22f4-4afe-8377-94a0f782723c'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueToboggan'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:42d06acb-2eae-4e16-b5f9-e7e7ab6d4774'>
+   <general href='urn:uuid:9001f7f1-e7d0-4b13-88b2-ba0efc4f331d'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

@@ -1,0 +1,849 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:f5044f55-1bd3-4494-a891-439044fc8df1'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueAeroport'
+   visibility='public'>
+  <ownedAttribute xmi:uuid='urn:uuid:8e82a24e-cbaf-4b9a-bb8f-60c61ca3e0b2'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='largeur'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/int:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:a9e14d8d-3413-4b2e-ae2c-8fc9311ccdf8'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:cd4d0504-7840-4996-83aa-abbc83d138f4'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:2a5525a9-43ac-48aa-9ade-5f65802f34fb'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='hauteur'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/int:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:162bd39d-64cb-4749-a855-0bfc95f1f259'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:d6a9d08d-ad42-463c-a3a6-04e22dd22883'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:c8e085bd-4e6b-462c-975d-dc64f631c7b0'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='coefReducteur'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:228a55e9-4f0d-4f3b-9f74-f182fcd67d58'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:35a0e404-a23e-4471-9612-015963d9a17a'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:1972f962-8ccb-467e-8464-ac3ecb93740b'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='skin'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/vue:uml:NamedElement/Skin:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f3dddc84-e4ba-4f3d-9340-0c4dc985970d'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:cfcf2cc2-1245-422c-b5e0-b0eba5bb56c4'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedComment xmi:uuid='urn:uuid:3b5d87f8-8957-4e70-9773-452fa1e1060f'
+    body='Vue de l&apos;aéroport qui gère l&apos;affichage (les vues) de tous les éléments affichés dans notre interface.&#xa;'/>
+  <ownedOperation xmi:uuid='urn:uuid:301493e7-b468-48eb-b270-d63f1cb5d3d9'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ajouterVueElementsClickable'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:7f9dc54a-c482-48d3-87b7-c5d42defdb99'
+     body='&#xa;Ajoute un objet VueElementsClickable à la liste de vues.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:b4771ffe-5b93-4414-85fc-42b37fd1e5be'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vEC'
+     direction='in'>
+    <type href='urn:uuid:534bec09-4c5e-4f0f-931d-244e0bb22d3d'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7c122f0a-520b-4672-bf9d-4d10045ac16d'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:7767ba43-b86f-4de9-9b30-ceab311e49ec'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:eaf354b5-2cc7-4ffe-8ea3-ea18ba407ebd'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:fe2cfc95-0594-4729-a066-5abf6d01aa7b'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:b818bbbe-5047-4d07-a0e9-29d5aa84c0a1'
+      body='&#xa;Ajoute un objet VueElementsClickable à la liste de vues.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:6d61f6f8-300d-455e-a99d-05de46fdad59'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:ee83ea90-7219-454e-b3ea-a99a55ac8045'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ajouterVueMenu'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:2551a20d-a8a9-4518-af16-7dfe816577ce'
+     body='&#xa;Ajoute un objet menu VueElementsClickable de la liste de vues.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:59340070-528b-4d6e-af46-eef155ee44e1'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vEC'
+     direction='in'>
+    <type href='urn:uuid:534bec09-4c5e-4f0f-931d-244e0bb22d3d'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:55ecd9ae-24a3-401a-bba2-35291c2a2f46'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:39ffee8c-bc82-413b-9492-fc7498bc06d2'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:2fece91f-951b-4504-bfb0-dc3da6ae5244'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:9eedfbe1-2975-46f6-9c1a-a69bc8765d43'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:3fabd775-90c6-4d80-8a0d-ab47495216dd'
+      body='&#xa;Ajoute un objet menu VueElementsClickable de la liste de vues.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3dd0b3a9-92fd-4240-a889-810d8c731154'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:ea6255dc-3cc5-44aa-9d5b-9a677c32e3ca'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='supprimerVueElementsClickable'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:2e08daac-0a33-4a91-aa0c-e3777c083e8d'
+     body='&#xa;Supprime un objet VueElementsClickable de la liste de vues.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:89f15677-c0a9-4135-b90e-747a9477b12a'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vEC'
+     direction='in'>
+    <type href='urn:uuid:534bec09-4c5e-4f0f-931d-244e0bb22d3d'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:29b7e5f0-82af-46ca-b9df-6dc57db5fa5d'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:8b212ccc-00dc-481c-8a5b-91374586bf6a'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:744b32dd-09d2-4103-8241-ef95fa440cc6'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:76d47dc8-3f27-4a85-b3fa-1e99cefc321d'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:1bfa1a69-629e-4063-a3e3-50bd5d281163'
+      body='&#xa;Supprime un objet VueElementsClickable de la liste de vues.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:758f9e19-ec16-4987-9bfa-21954dbf6d45'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:4b17b169-f046-48ff-9fce-4b6b29883990'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Dessiner'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:75e0840a-67ab-4886-a88b-e6cb02fe6520'
+     body='&#xa;Dessine tous les éléments à afficher dans le cadre.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:19a0de73-dc65-48d4-896b-9ecc20f5848b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='g'
+     direction='in'>
+    <type href='mof:/java:uml:NamedElement/awt:uml:NamedElement/Graphics:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:b0f1427a-7496-478a-a38b-d7bed47b8a50'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:9e00d0db-c277-4575-b8fb-167ea4a73387'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:3bf515e4-e8aa-4b9e-ae30-f6d5f7bd5b0f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:bc4f508d-b4f0-4f2b-8e96-d506819413c3'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:9c2d280e-da55-4223-b445-17d847ebcc3c'
+      body='&#xa;Dessine tous les éléments à afficher dans le cadre.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b68111d3-ee30-4839-bd16-d0d7aa2f03de'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:4ba61c98-8f57-4d13-ad2d-3cf7135f6fc3'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='selectElement'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:cea50cd2-b1e2-4540-90a6-01fbdb3ba363'
+     body='&#xa;Renvoie l&apos;élément correspondant aux coordonnées en paramètres.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:c87df90a-12cd-42c9-8030-ded5105ec8dc'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='x'
+     direction='in'>
+    <type href='mof:/int:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:edaccdf3-798a-4321-9757-9602e3c5073e'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:5d122a26-4ca1-421e-9e08-5b39ede08d0b'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:31d912fe-0039-4dfb-8ed4-285b88e216ca'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='y'
+     direction='in'>
+    <type href='mof:/int:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:beac2213-f119-4402-9000-37ab59e2802e'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:50067d48-2a05-4aba-ae0f-2c364fd90efd'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:b3a59fe3-b920-4a51-802b-76daf1848abe'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='urn:uuid:534bec09-4c5e-4f0f-931d-244e0bb22d3d'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1c026fe1-cc56-4c46-b914-824d1c7bb0f0'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:5fe8b721-37bf-47c8-9476-bf101c88e8b9'
+      body='&#xa;Renvoie l&apos;élément correspondant aux coordonnées en paramètres.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:10293556-eea0-4669-99f4-9e785610914a'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:bf17e554-7313-49e1-bfd1-5512de81ce65'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='convertirEnPixel'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:97ab5fd7-b917-4d6e-ac42-d422cf173700'
+     body='&#xa;Convertit le point en mètre en paramètre en point en pixel.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:0deecbd9-3a1a-4e1b-b564-2e19b9b64341'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='pointEnM'
+     direction='in'>
+    <type href='mof:/bibliothequesTiers:uml:NamedElement/Point:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:63f4ee00-c2fa-4819-84c1-70299706e013'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:03007477-9edd-4f61-adb5-d8420dfa221d'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:844958d3-6cd3-4769-8163-3884ee6d984e'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/bibliothequesTiers:uml:NamedElement/Point:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1cdd954d-a702-4d7f-ac18-33ff04f85a88'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:f64484b4-737d-4cb7-a355-8dd7909bec2e'
+      body='&#xa;Convertit le point en mètre en paramètre en point en pixel.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:98baa531-c130-4176-a9c5-097f39172e99'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:e70bbcaf-15cf-4950-a93a-fdfa570aa6ac'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='convertirEnPixel'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:7cd61b6d-6be2-4abc-8d0a-e82f43d795cc'
+     body='&#xa;Convertie une distance en mètre en distance en pixel.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:bfa3f505-7d83-4a40-abc8-c6f5ac02e34e'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='dist'
+     direction='in'>
+    <type href='mof:/Double:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:6b341a54-7668-4da3-811b-542dd434230f'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:f3e280e0-0eaa-4d35-aa81-319cc3b66c0b'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:a0f88e22-122e-40ae-811e-310b50d5e8b3'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/Double:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ace1ca7a-43d7-40f7-8d90-bb41f477414c'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:ba96b7da-bbab-4a7d-89a7-aaa36a17f9ee'
+      body='&#xa;Convertie une distance en mètre en distance en pixel.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:2c7d34e5-c8e5-487e-9ff0-c342c77a3100'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:d2dab40a-1c76-4c0f-865c-544677d6b387'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getAeroport'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:525b0406-f484-4199-abea-61bc479b1436'
+     body='&#xa;Renvoie l&apos;instance aéroport correspondant à l&apos;affichage.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:ec7fa845-9dc5-4ffb-8d4a-cc050d1a7f4f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='urn:uuid:108d77fc-6863-4f8b-8b45-0e0dda27ebb3'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:872280e5-fbd2-433f-9d2a-710bcaf71eb9'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:372cac57-1169-47c0-a82a-4b8903a4cd93'
+      body='&#xa;Renvoie l&apos;instance aéroport correspondant à l&apos;affichage.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:df804aa5-2894-45f0-b7ea-3fec49c85174'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:972b1498-001b-4e48-b00e-fc12ca47c17c'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='setAeroport'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:3fc2d36e-8c05-4a83-8a26-b9878db7cc8a'
+     body='&#xa;Modifie l&apos;instance aéroport géré.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:4253ddd8-3f4d-46a6-8051-db720c936a93'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='aeroport'
+     direction='in'>
+    <type href='urn:uuid:108d77fc-6863-4f8b-8b45-0e0dda27ebb3'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:8225619c-ea4f-4be6-be5f-6c41f4035a4d'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:18b6d070-47bc-476b-b6f6-37e630524aa5'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:f06138fb-7a2b-4355-a11a-7a4f1a07dff1'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7db6fcad-b096-493d-bdf5-b691fd433935'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:eb46ae81-7f66-47d4-9319-79837d52cd8b'
+      body='&#xa;Modifie l&apos;instance aéroport géré.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b0d1c587-288c-4cf9-a4df-fabc3292a83e'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:0b0551fb-df14-4548-b9b4-e267c01dec96'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='avancer'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:114f6d9d-54e0-4441-bb30-8ee5b13e5ef4'
+     body='&#xa;Fait avancer tous les objets de l&apos;aéroport d&apos;un &quot;instant&quot;.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:859b44b6-7912-4acf-85bc-ea2e593b6272'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:d1d80fbe-5239-4d2a-8fff-9ce7c491d7ba'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:e3c9a3ae-ffeb-44ba-8a2c-c22e84b66ade'
+      body='&#xa;Fait avancer tous les objets de l&apos;aéroport d&apos;un &quot;instant&quot;.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:6d937541-4210-493d-963e-b5fbb64ae531'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:e9018a32-d5ef-4ef8-af6b-aa9f93fd692b'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getElements'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:ea7d554f-c18a-4a0b-a76b-f555c00a6ffd'
+     body='&#xa;Retourne la liste d&apos;éléments à afficher.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:2af79936-f224-4ebb-874f-9917de80d8e5'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/java:uml:NamedElement/util:uml:NamedElement/LinkedList:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:186e2f49-afcf-4a54-bab0-38349bed06d4'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:8e6a05ee-edf3-4c55-964e-3de58f713277'
+      body='&#xa;Retourne la liste d&apos;éléments à afficher.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:80de65e7-e9c6-44ad-83e5-66a246efc8ce'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:5e23edbd-35d5-4f10-b62a-d261f481d823'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='SurbrillanceTR'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:4962846c-8c00-46e8-883d-715eb1f0cd07'
+     body='&#xa;Définit les tapis roulants à mettre en surbrillance ou non, en fonction du paramètre.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:e611695a-e794-496f-812e-ef84b7edea6a'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='enSurbrillance'
+     direction='in'>
+    <type href='mof:/boolean:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:2d829cc4-9af6-4d7f-b472-ee7bb3b68787'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:9c7f92a2-3eee-4d66-8ca7-3796c4030755'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:6ddcced0-b135-4995-b3d4-a694a3e2f60c'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:18171feb-c5cf-47d9-9ebf-3eb7f3853bb9'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:017e7e5a-2d48-47ba-8b7a-269dc396231a'
+      body='&#xa;Définit les tapis roulants à mettre en surbrillance ou non, en fonction du paramètre.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:20bf30ae-03a0-4dae-8af1-aeb192964b89'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:f8cd848e-672e-4b75-8c2b-f05ae5c94a33'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ConstruireSimulAPartirDeDOMXML'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:7f692508-f5a6-48a8-b93d-2294609852b7'
+     body='&#xa;Construit une simulation à partir d&apos;un fichier de simulation XML.&#xa;Création de tous les éléments de l&apos;aéroport ainsi que ses vues.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:03b42923-ecea-435c-ba3b-ccc9bbdd4ce7'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='noeudDOMRacine'
+     direction='in'>
+    <type href='mof:/org:uml:NamedElement/w3c:uml:NamedElement/dom:uml:NamedElement/Element:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e82da358-c0fa-4026-a7e0-6cc1941b74c1'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:f294e21b-4ad7-4405-824c-99528019d83d'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:17cbadca-4d4f-45e5-bed7-a268850f168c'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/int:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:4aa8ccf2-b021-490f-9ded-e3f504ad5d0c'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:9f5f368f-2f2d-45dc-9317-79865a067cca'
+      body='&#xa;Construit une simulation à partir d&apos;un fichier de simulation XML.&#xa;Création de tous les éléments de l&apos;aéroport ainsi que ses vues.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:9ad4c7e5-0eab-49c6-bf66-72eebb357d26'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:ce37c3a7-2cfc-4ad3-8d1f-0939c4473484'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getCoefReducteur'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:f9dee183-10d8-40f5-97ac-5987792993a0'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/double:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1e3474d1-d040-4721-9873-e719b2226b5f'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:044500de-7fc2-4ecc-864b-915025ffcb3a'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:0436e3a6-0d64-4365-9dc9-5a626bac394d'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getSkin'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:f5f5fd28-2fa7-4d1f-948a-f5d2a2072834'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/vue:uml:NamedElement/Skin:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e9302737-0722-4e11-a8be-f6339416cec7'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:80c66d0a-6698-46a2-ae2e-ab696209978a'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:aa8a93f1-3c22-433a-8ff0-be22152298f1'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='chargerVues'
+    concurrency='sequential'
+    visibility='private'>
+   <ownedComment xmi:uuid='urn:uuid:e1ad8c42-d94e-4bf0-8703-5cd9121c58bf'
+     body='&#xa;Charge les vues des éléments de l&apos;aéroport.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:ece6f3e1-514f-4abc-8f60-bbf66e3cda88'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:cee280a6-6d14-4700-a95f-74dcad0be098'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:5e48d831-d36a-4a17-ae23-682ce1838738'
+      body='&#xa;Charge les vues des éléments de l&apos;aéroport.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:0e7678a0-0b95-4f95-88dc-d0cc3740b61d'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:381b4a2f-4f8d-46bf-8e08-02323365c9e2'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='deselectionnerTout'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:1925756b-312b-4f6b-829a-47184c35460a'
+     body='&#xa;Indique que tous les élements de l&apos;aéroport ne sont pas sélectionnés.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:bd5a1789-b209-4628-b684-56d106018135'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e43abce6-0198-4c70-a05c-9f6ddc2a79f0'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:1d93e9cd-2164-470a-a993-5cab2a87b14d'
+      body='&#xa;Indique que tous les élements de l&apos;aéroport ne sont pas sélectionnés.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:e90a9bf8-0321-47a8-9fa7-20e7e48a8b2b'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:87f7000b-c50b-479f-abdc-8da7a0d76763'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='supprimerVuesDirection'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:f074aca5-72e7-4a74-84cc-842eb80a5bc9'
+     body='&#xa;Supprime les vues (et donc l&apos;affichage) des menus de choix de direction dans le cadre.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:9024d42c-963b-498e-8d1c-917d34ab747d'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:5011ab88-79d8-4316-b6d4-30baa82a4d5a'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:97888913-621a-4302-9820-2567078170dd'
+      body='&#xa;Supprime les vues (et donc l&apos;affichage) des menus de choix de direction dans le cadre.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:4ebc9496-fee2-422a-b7af-89a212db2c1d'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:9e9ce400-2104-4131-a5b8-49a81559a8cb'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ajouterVueBagage'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:d8cdd9dd-3381-4a0c-ad24-de749043b050'
+     body='&#xa;Ajoute une vue de bagage.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:135f3bd0-dbaa-4ab3-9d4b-dbe82001e8cc'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vueBagage'
+     direction='in'>
+    <type href='urn:uuid:b1a331bc-0e05-4728-a9e3-8c0c9ef77b0a'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:c3d310cc-c22e-4d2f-995d-413eb98109ab'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:a8bd88b0-93c4-4395-b396-f59e0f1bced2'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:f3aacdb0-a9b8-463d-8048-a14a76acbb5a'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:6075532c-b776-4e14-85ab-645b32835b28'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:3dfc73ff-243f-4b0d-86af-680edf9bfaff'
+      body='&#xa;Ajoute une vue de bagage.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3f911dd1-6354-415d-abbb-a20f9126f959'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:9de4af58-5794-4240-9d82-eb063e0996c7'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='VueAeroport'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:713108e2-c478-4f32-a0ca-126dbdeb278b'
+     body='&#xa;Constructeur de la classe.&#xa;&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:18280c3b-09e2-4103-a4f3-dc468750ef16'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='aeroport'
+     direction='in'>
+    <type href='urn:uuid:108d77fc-6863-4f8b-8b45-0e0dda27ebb3'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:543c304b-0130-43a0-8f66-46cd86d0b286'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3a41fa1d-0d04-4d29-a273-4b46e72f8c42'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:972d0b57-fdda-48f7-b61f-61bae63d7054'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='largeur'
+     direction='in'>
+    <type href='mof:/int:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:afc84641-7f3f-4fac-9896-0ec40cf04516'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:94c3962c-7f1f-42cf-80dd-04f3d64e6890'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:2705c9ea-0fa4-41ed-99b4-bdc53badf4f0'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='hauteur'
+     direction='in'>
+    <type href='mof:/int:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:44973e66-f44c-491a-9ecc-4fae6d9d41c4'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:8b7e8fb3-87ea-400a-9fd2-cb15f62ae9d1'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

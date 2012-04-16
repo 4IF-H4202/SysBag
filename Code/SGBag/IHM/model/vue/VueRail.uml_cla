@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:8c5ee39c-e587-49b8-bcf8-32f3937f76fe'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueRail'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:3372acff-8e9a-46db-a9a3-778db19d2306'>
+   <general href='urn:uuid:b75f7fc3-c3ea-402c-b9e7-8c798efa199f'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

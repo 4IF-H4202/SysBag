@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:f5dd49d7-e1e3-4552-aca4-0308f9d2e2ce'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Simulation'
+   visibility='public'>
+  <ownedComment xmi:uuid='urn:uuid:68b0640d-ee13-4134-8b2d-4b4b9ff0ae2d'
+    body='uml_uc:Subject'/>
+ </uml:Class>
+</xmi:XMI>

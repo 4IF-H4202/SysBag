@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:525b2bfb-e30c-4d2b-8036-61460554b474'
+   isAbstract='false'
+   isLeaf='false'
+   name='Ajouter un bagage'
+   visibility='public'>
+  <include xmi:uuid='urn:uuid:a79488b0-a257-41f3-8069-5ea5deb2d99a'>
+   <addition href='urn:uuid:44156a6f-d591-44b4-a945-d908e28a9780'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:b1a331bc-0e05-4728-a9e3-8c0c9ef77b0a'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueBagage'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:c41c3d6d-a7a2-426e-98b2-65006ede0cf7'>
+   <general href='urn:uuid:1ea9b6e0-c7df-4af8-ad2f-eecf68133a40'/>
+  </generalization>
+  <generalization xmi:uuid='urn:uuid:cea4fde2-134c-4bfe-bf0b-fdcf97bd6c08'>
+   <general href='urn:uuid:1ea9b6e0-c7df-4af8-ad2f-eecf68133a40'/>
+  </generalization>
+  <ownedComment xmi:uuid='urn:uuid:57cd61e1-5810-4f6c-b5c7-77fcaa0ed70e'
+    body='Classe gérant l&apos;affichage d&apos;un bagage.&#xa;'/>
+ </uml:Class>
+</xmi:XMI>

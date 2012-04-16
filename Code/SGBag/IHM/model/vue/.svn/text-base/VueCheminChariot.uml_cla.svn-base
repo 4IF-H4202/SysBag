@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:b75f7fc3-c3ea-402c-b9e7-8c798efa199f'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueCheminChariot'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:ea85fc1f-81b4-4caf-9afc-07965c156254'>
+   <general href='urn:uuid:b33d6ad2-4db9-4f51-981d-8bdd8116859a'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

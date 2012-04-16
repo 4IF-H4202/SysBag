@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:d72ea673-2a54-4d43-963e-0de525b70bf8'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueAeroport'
+   visibility='public'>
+  <ownedAttribute xmi:uuid='urn:uuid:2c43d136-8dd2-4022-a002-f9a428f560f5'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='aeroport'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/Aeroport:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:2a730db1-8016-48c9-b563-00c0b7a94229'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:9e912f3a-efcf-4b42-80fc-563197664645'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:7073f6e0-4639-444d-8f6a-64192f72a00f'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='largeur'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/int:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:68504702-4af6-4038-958d-8291b08a5576'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:cd2120b3-c1fc-4c39-bfe6-c1b0bd55c14f'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:f388aecf-135f-457f-b26e-8b6ef7c2bcef'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='hauteur'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/int:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:443ecddb-0c37-47b5-a411-23c7067c5682'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:d527a106-82ac-4c58-88f7-1e12340ef455'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:uuid='urn:uuid:2c4973f2-3fc8-43dc-be11-b8eb140c8ac2'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='selection'
+    concurrency='sequential'
+    visibility='package'>
+   <ownedParameter xmi:uuid='urn:uuid:ddcbb5ff-a648-4192-b236-302dd610bff3'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='x'
+     direction='in'>
+    <type href='mof:/int:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:046fd37f-83df-4603-a697-1c85e866da34'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='y'
+     direction='in'>
+    <type href='mof:/int:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:e86bf6a5-8c7b-4d79-b2c5-58e00e6cff88'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/ObjetNoyau:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

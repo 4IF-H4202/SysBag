@@ -1,0 +1,12 @@
+<aeroport id="1" largeur="400" hauteur="300">
+		<intersection id="10" x="20" y="20" />
+		<intersection id="2" x="380" y="20" />
+		<intersection id="3" x="380" y="380" />
+		<intersection id="4" x="20" y="380" />
+		
+		<rail id="1" idDepart="11" idArrivee="2" />
+		<rail id="2" idDepart="21" idArrivee="3" />
+		<rail id="3" idDepart="31" idArrivee="4" />
+		<rail id="4" idDepart="41" idArrivee="1" />
+		<rail id="5" idDepart="111" idArrivee="3" />
+</aeroport>

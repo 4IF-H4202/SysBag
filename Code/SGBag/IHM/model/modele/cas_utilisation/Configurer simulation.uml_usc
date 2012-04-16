@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:df1bc3f6-d4f9-4a16-8a64-cdffdab055bd'
+   isAbstract='false'
+   isLeaf='false'
+   name='Configurer simulation'
+   visibility='public'/>
+</xmi:XMI>

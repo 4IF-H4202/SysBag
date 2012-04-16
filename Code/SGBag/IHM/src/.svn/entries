@@ -1,0 +1,43 @@
+10
+
+dir
+461
+http://subversion.assembla.com/svn/dev-oo/trunk/SGBag/IHM/src
+http://subversion.assembla.com/svn/dev-oo
+
+
+
+2011-11-24T09:38:35.514697Z
+461
+Sahra
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+13cc90c9-18a3-4b02-a349-2834f8d6db02
+
+bibliothequesTiers
+dir
+
+ihm
+dir
+
+modele
+dir
+
+noyau
+dir
+
+vue
+dir
+

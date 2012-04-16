@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:78af5bff-01b3-4d5e-a343-bc79befceb6a'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Chariot'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:52b2f15a-5bdd-4ea8-a702-58808399c148'>
+   <general href='urn:uuid:861e5db6-fe78-4bc2-920c-49400caf12b1'/>
+  </generalization>
+  <generalization xmi:uuid='urn:uuid:d093cfd7-2598-4da9-b975-c0e67a0f55fc'>
+   <general href='urn:uuid:861e5db6-fe78-4bc2-920c-49400caf12b1'/>
+  </generalization>
+  <generalization xmi:uuid='urn:uuid:1ac89671-ce31-4012-a720-8f3761ef0157'>
+   <general href='urn:uuid:3acca8e7-215c-4fac-9754-bfa2897eb518'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:ba7f1348-18d5-4274-93a6-caa567e29f5b'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='action'
+    aggregation='none'
+    visibility='protected'>
+   <type href='mof:/Enum:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:c626d6f4-4fe1-45a7-8634-b413cbc8f783'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:998a6297-df9c-4f79-b1d4-786e69debf49'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:cf61b494-306e-4e11-a89e-15245e548315'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='positionRail'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e5f75030-c0a3-49a6-a9ca-c764bf361c8e'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:73bfe8da-1e84-4cf8-9183-d61a18a60e38'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:a923f56e-c672-492d-92de-0871124fd78a'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='vitesseTapis'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ce0b5d2e-544f-4b4c-8831-762ddda3eaac'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:472bf766-8492-4121-8c88-d00d2f2d64cf'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:fa15e6c5-87b2-4c07-a3a7-9404039ad5e4'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='vitesse'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:2a101294-5621-4bb2-b17c-21396ecd3e91'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:c7be8c3a-2fe9-41f3-8f6f-6284f8774ebd'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:99d4211e-0ff5-4ca1-ac04-5c209f2d8fcb'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='vitesseReelle'
+    aggregation='none'
+    visibility='protected'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:0035b085-1bb6-4f48-a903-2f6e350ec2c5'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b30dc225-f00a-4398-9edd-3083257edfa0'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:89e4aed3-cc3b-4274-a965-5c28fc1c4acb'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='tempsConsomme'
+    aggregation='none'
+    visibility='protected'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:0e9df3be-ee40-4a05-8b78-a780e1207cdf'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b6748b5d-b66d-4627-ab49-f2cc11ca928c'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:a3d8571d-6d1b-4541-96f6-f46ca0a211ea'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='estArrete'
+    aggregation='none'
+    visibility='protected'>
+   <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#Boolean'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7933dd31-389c-4d8a-aeb6-308666e89b7f'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:96e470d3-c128-46a4-9768-1219e0c34b1d'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:uuid='urn:uuid:0b036908-aa24-4e4b-96f8-402928a7e396'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='AllerRailPrecedent'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:49643016-9344-48a7-8b41-8ce0ac46a830'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='rail'
+     direction='in'>
+    <type href='urn:uuid:41da4cf3-3043-4da3-a817-519ec8e04626'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:8b4d917b-d910-4a13-b676-b3781abff4ca'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:e8a6ef92-59d8-4702-b8f1-9eeaac6439f9'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='AllerRailSuivant'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:dcdd37de-1b69-4166-a7ff-5a59b3e762fe'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:ff3b160a-c28a-4fbc-ab63-0c5240e49e78'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='CalculerTrajet'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:fb97cb0e-92f6-4dba-934d-b6c85aff4578'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:89e78431-de16-4239-a4e9-3312d77f32d9'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='GetCheminActuel'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:64075161-f660-48c3-8246-c75b8e659e8e'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/CheminChariot%20:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:2cccfb64-3268-4567-92df-ce66526ae357'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='SetTrajet'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:e38feeb5-f3a7-4c15-9a3b-12c8a11c1479'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='trajet'
+     direction='in'>
+    <type href='mof:/Collection%3CCheminChariot%3E:uml:Type'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:fd98a8cb-8dc4-4eb1-8d1e-c6f1c42f02c1'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

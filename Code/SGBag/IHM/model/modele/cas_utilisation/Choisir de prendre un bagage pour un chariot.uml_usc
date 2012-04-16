@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:6a240853-726b-4058-bab4-4493ccf02bc5'
+   isAbstract='false'
+   isLeaf='false'
+   name='Choisir de prendre un bagage pour un chariot'
+   visibility='public'>
+  <include xmi:uuid='urn:uuid:5683e08f-972d-48eb-a591-c19342c4cd23'>
+   <addition href='urn:uuid:44156a6f-d591-44b4-a945-d908e28a9780'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>

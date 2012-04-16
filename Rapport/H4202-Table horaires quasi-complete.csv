@@ -1,0 +1,54 @@
+Utilisateur;Activité;Projet;Demande;Tracker;Sujet;Heures
+Loïc Gevrey;Conception;TP DOO & IHM;14;Création;Modèle du domaine limité à 20 classes;2
+Loïc Gevrey;Développement;TP DOO & IHM;15;Création;Mise en place du SVN sur Redmine;1
+daniel baudry;Conception;TP DOO & IHM;34;Création;Conception - XML;30
+daniel baudry;Développement;TP DOO & IHM;36;Création;Conception - XML - Sauvegarde & Chargement de Simulation;15
+daniel baudry;Développement;TP DOO & IHM;37;Création;Conception - XML - Chargement de Skins;4
+daniel baudry;Conception;TP DOO & IHM;59;Création;Diagramme de séquence;3
+Benjamin Planche;Conception;TP DOO & IHM;45;Création;[Global] INTEGRER;10
+Benjamin Planche;Conception;TP DOO & IHM;43;Création;[Noyau] GERER IHM;15
+Benjamin Planche;Développement;TP DOO & IHM;30;Mise à jour;Diagramme de classes - Vues;1
+Benjamin Planche;Développement;TP DOO & IHM;26;Création;Diagrammes de séquences;0
+Benjamin Planche;Développement;TP DOO & IHM;29;Création;Diagramme de séquences - Toc horloge;1
+Benjamin Planche;Conception;TP DOO & IHM;30;Mise à jour;Diagramme de classes - Vues;0
+Benjamin Planche;Conception;TP DOO & IHM;26;Création;Diagrammes de séquences;0
+Benjamin Planche;Conception;TP DOO & IHM;43;Création;[Noyau] GERER IHM;15
+Benjamin Planche;Conception;TP DOO & IHM;26;Création;Diagrammes de séquences;0
+Benjamin Planche;Développement;TP DOO & IHM;35;Création;Conception - IHM;4
+Benjamin Planche;Développement;TP DOO & IHM;38;Anomalie;Intégration IHM -Vue;3
+Benjamin Planche;Développement;TP DOO & IHM;36;Création;Conception - XML - Sauvegarde & Chargement de Simulation;4
+Benjamin Planche;Conception;TP DOO & IHM;27;Création;Conception - Noyau & Configuration;2
+Benjamin Planche;Développement;TP DOO & IHM;25;Création;Classes Noyau et Vues;3
+Benjamin Planche;Conception;TP DOO & IHM;27;Création;Conception - Noyau & Configuration;5
+Manon Foulquier;Développement;TP DOO & IHM;58;Création;Mode Manuel : ajout de bagage;7
+Manon Foulquier;Conception;TP DOO & IHM;60;Anomalie;Mode Manuel : clic voie Garage;6
+Manon Foulquier;Développement;TP DOO & IHM;61;Anomalie;Mode Manuel : clic chariot;8
+Manon Foulquier;Développement;TP DOO & IHM;62;Création;Mode Manuel : clic choix direction;7
+Manon Foulquier;Conception;TP DOO & IHM;63;Création;Diagramme de séquence : mode manuel : ajout de bagage;5
+Manon Foulquier;Conception;TP DOO & IHM;64;Création;Diagramme de séquence : mode manuel : clic chariot;5
+Manon Foulquier;Conception;TP DOO & IHM;65;Création;Diagramme de séquence : mode manuel : clic voieGarage;5
+Manon Foulquier;Conception;TP DOO & IHM;66;Création;Diagramme de séquence : mode manuel : clic choix direction;5
+Manon Foulquier;Conception;TP DOO & IHM;13;Création;Liste organisée des besoins potentiels;2
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;76;Evolution;[Noyau] Mise en place des étincelles;2
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;75;Correction;[Noyau] Correction des problèmes liés à l'intégration;11
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;74;Evolution;[Noyau] Adaptation des déplacements au mode manuel;2,5
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;73;Création;[Noyau] Déplacement des bagages sur tapis/toboggan;3
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;73;Création;[Noyau] Déplacement des bagages sur tapis/toboggan;2
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;72;Création;[Noyau] Echange de bagages entre chariots et tapis/toboggan;5
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;71;Création;[Noyau] Détection des collisions;8
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;70;Création;[Noyau] Mode auto : Déplacement des chariots de rails en rails;3
+Sahra Driai & Fabien Bardy;Développement;TP DOO & IHM;69;Création;[Noyau] Déplacement des chariots sur un rail;1
+Sahra Driai & Fabien Bardy;Conception;TP DOO & IHM;68;Création;[Diagramme de séquence] Retrait/dépôt de bagage;2
+Sahra Driai & Fabien Bardy;Conception;TP DOO & IHM;67;Création;[Diagramme de séquence] Déplacement automatique des chariots;5,5
+Sahra Driai & Fabien Bardy;Conception;TP DOO & IHM;31;Mise à jour;Diagramme de classes - Noyau;2,5
+Sahra Driai & Fabien Bardy;Conception;TP DOO & IHM;18;Création;Liste des livrables;2,5
+Nicolas Phan;Conception;TP DOO & IHM;48;Création;[Vue] Diagramme de séquence de la méthode Dessiner;1
+Nicolas Phan;Conception;TP DOO & IHM;48;Création;[Vue] Diagramme de séquence de la méthode Dessiner;1
+Nicolas Phan;Conception;TP DOO & IHM;47;Création;[Vue] Diagramme de classe des vues;1
+Nicolas Phan;Conception;TP DOO & IHM;16;Création;Mise en place SVN;1
+Nicolas Phan;Conception;TP DOO & IHM;47;Création;[Vue] Diagramme de classe des vues;1
+Nicolas Phan;Développement;TP DOO & IHM;40;Evolution;[Vue] Possibilité de déplacement d'une boule sur une droite oblique;8
+Nicolas Phan;Développement;TP DOO & IHM;44;Anomalie;[Vue] Création des classes vues affichant les éléments de l'aéroport;18
+Nicolas Phan;Développement;TP DOO & IHM;24;Evolution;Conception - Prise en main du projet Exemple & 1er Jet;8
+Nicolas Phan;Développement;TP DOO & IHM;24;Evolution;Conception - Prise en main du projet Exemple & 1er Jet;4
+Nicolas Phan;Conception;TP DOO & IHM;16;Création;Mise en place SVN;3

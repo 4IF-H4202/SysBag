@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Package xmi:uuid='urn:uuid:3c07ffa7-4ac4-49a2-94fb-563815fb79a9'
+   name='diagrammes_sequences'
+   visibility='public'/>
+</xmi:XMI>

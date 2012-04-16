@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ihm.FenetrePrincipale nbHeures="12" nbMin="29" nbSec="54">
+<noyau.Aeroport distanceSecu="2.0" id="0" lambdaPoisson="1.0" largeur="16.0" longueur="25.0">
+<noyau.Intersection id="1" x="12.0" y="2.0"/>
+<noyau.Intersection id="2" x="17.0" y="2.0"/>
+<noyau.Intersection id="3" x="17.0" y="7.0"/>
+<noyau.Intersection id="4" x="12.0" y="7.0"/>
+<noyau.Intersection id="5" x="22.0" y="1.0"/>
+<noyau.Intersection id="6" x="22.0" y="7.0"/>
+<noyau.Intersection id="25" x="2.0" y="2.0"/>
+<noyau.Intersection id="27" x="2.0" y="7.0"/>
+<noyau.Intersection id="26" x="7.0" y="12.0"/>
+<noyau.Intersection id="28" x="7.0" y="15.0"/>
+<noyau.Intersection id="29" x="12.0" y="12.0"/>
+<noyau.Intersection id="30" x="17.0" y="12.0"/>
+<noyau.Intersection id="31" x="2.0" y="12.0"/>
+<noyau.Intersection id="32" x="20.0" y="12.0"/>
+<noyau.Intersection id="33" x="23.0" y="9.0"/>
+<noyau.Intersection id="34" x="18.0" y="15.0"/>
+<noyau.Intersection id="36" x="16.0" y="15.0"/>
+<noyau.Rail id="7" idArrivee="2" idDepart="1"/>
+<noyau.Rail id="8" idArrivee="3" idDepart="2"/>
+<noyau.Rail id="9" idArrivee="4" idDepart="3"/>
+<noyau.Rail id="10" idArrivee="1" idDepart="4"/>
+<noyau.Rail id="11" idArrivee="3" idDepart="1"/>
+<noyau.Rail id="26" idArrivee="25" idDepart="27"/>
+<noyau.Rail id="29" idArrivee="29" idDepart="4"/>
+<noyau.Rail id="39" idArrivee="26" idDepart="29"/>
+<noyau.Rail id="30" idArrivee="27" idDepart="26"/>
+<noyau.Rail id="31" idArrivee="27" idDepart="4"/>
+<noyau.Rail id="49" idArrivee="30" idDepart="3"/>
+<noyau.Rail id="50" idArrivee="1" idDepart="27"/>
+<noyau.Rail id="51" idArrivee="32" idDepart="30"/>
+<noyau.Rail id="52" idArrivee="34" idDepart="32"/>
+<noyau.Rail id="53" idArrivee="36" idDepart="34"/>
+<noyau.Rail id="54" idArrivee="34" idDepart="30"/>
+<noyau.Rail id="55" idArrivee="29" idDepart="36"/>
+<noyau.Vol id="18" nbBagagesMax="51" nom="AFK277"/>
+<noyau.Vol id="19" nbBagagesMax="51" nom="JP234"/>
+<noyau.Vol id="20" nbBagagesMax="51" nom="NY777"/>
+<noyau.Chariot action="deposerBagage" id="20" idChemin="53" positionRail="0.3544487245360113" vitesse="5.0" vitesseTapis="1.0">
+<noyau.Bagage id="119" idVol="20" poids="19.0" position="0.0"/>
+</noyau.Chariot>
+<noyau.Chariot action="deposerBagage" id="21" idChemin="52" positionRail="1.585551275463989" vitesse="6.0" vitesseTapis="1.0">
+<noyau.Bagage id="113" idVol="18" poids="5.0" position="0.0"/>
+</noyau.Chariot>
+<noyau.Chariot action="deposerBagage" id="30" idChemin="55" positionRail="0.3744487245360113" vitesse="5.0" vitesseTapis="1.0">
+<noyau.Bagage id="111" idVol="18" poids="14.0" position="0.0"/>
+</noyau.Chariot>
+<noyau.Chariot action="garerChariot" id="31" idChemin="26" positionRail="2.4000000000000004" vitesse="6.0" vitesseTapis="1.0"/>
+<noyau.Chariot action="deposerBagage" id="35" idChemin="39" positionRail="0.8233809126705349" vitesse="5.0" vitesseTapis="5.0">
+<noyau.Bagage id="108" idVol="18" poids="22.0" position="0.0"/>
+</noyau.Chariot>
+<noyau.Chariot action="deposerBagage" id="36" idChemin="30" positionRail="6.212212088127396" vitesse="6.0" vitesseTapis="5.0">
+<noyau.Bagage id="107" idVol="19" poids="6.0" position="0.0"/>
+</noyau.Chariot>
+<noyau.Chariot action="retirerBagage" id="37" idChemin="50" positionRail="6.688932188134529" vitesse="4.0" vitesseTapis="5.0"/>
+<noyau.Chariot action="deposerBagage" id="38" idChemin="50" positionRail="9.108932188134531" vitesse="4.0" vitesseTapis="5.0">
+<noyau.Bagage id="112" idVol="18" poids="17.0" position="0.0"/>
+</noyau.Chariot>
+<noyau.Chariot action="retirerBagage" id="39" idChemin="11" positionRail="6.400000000000001" vitesse="4.0" vitesseTapis="5.0"/>
+<noyau.Chariot action="garerChariot" id="23" idChemin="241" positionRail="5.0" vitesse="6.0" vitesseTapis="5.0"/>
+<noyau.TapisRoulant distanceBagages="1.0" id="17" idArrivee="3" idDepart="6" limiteBagages="4.5" tempsConsomme="0.0" vitesse="5.0">
+<noyau.Bagage id="123" idVol="19" poids="21.0" position="4.5" statut="porte"/>
+<noyau.Bagage id="125" idVol="18" poids="26.0" position="3.5" statut="porte"/>
+<noyau.Bagage id="126" idVol="19" poids="2.0" position="2.5" statut="porte"/>
+<noyau.Bagage id="128" idVol="19" poids="6.0" position="1.4999999999999998" statut="porte"/>
+<noyau.Bagage id="131" idVol="19" poids="8.0" position="0.4999999999999998" statut="porte"/>
+<noyau.Bagage id="135" idVol="18" poids="6.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="137" idVol="20" poids="9.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="141" idVol="18" poids="5.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="142" idVol="20" poids="13.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="147" idVol="20" poids="16.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="152" idVol="20" poids="23.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="156" idVol="20" poids="4.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="158" idVol="19" poids="21.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="164" idVol="18" poids="1.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="167" idVol="18" poids="13.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="168" idVol="20" poids="7.0" position="0.0" statut="attente"/>
+</noyau.TapisRoulant>
+<noyau.TapisRoulant distanceBagages="1.0" id="18" idArrivee="26" idDepart="28" limiteBagages="2.0" tempsConsomme="0.0" vitesse="5.0">
+<noyau.Bagage id="116" idVol="20" poids="13.0" position="2.0" statut="porte"/>
+<noyau.Bagage id="120" idVol="19" poids="16.0" position="1.0" statut="porte"/>
+<noyau.Bagage id="121" idVol="19" poids="3.0" position="0.0" statut="porte"/>
+<noyau.Bagage id="127" idVol="18" poids="1.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="129" idVol="18" poids="16.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="134" idVol="19" poids="18.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="136" idVol="20" poids="17.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="139" idVol="18" poids="3.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="140" idVol="20" poids="4.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="150" idVol="18" poids="15.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="151" idVol="20" poids="18.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="155" idVol="18" poids="5.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="159" idVol="20" poids="1.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="160" idVol="20" poids="6.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="161" idVol="19" poids="18.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="169" idVol="19" poids="17.0" position="0.0" statut="attente"/>
+</noyau.TapisRoulant>
+<noyau.TapisRoulant distanceBagages="1.0" id="19" idArrivee="32" idDepart="33" limiteBagages="2.0" tempsConsomme="0.0" vitesse="5.0">
+<noyau.Bagage id="115" idVol="20" poids="16.0" position="3.2426406871192848" statut="porte"/>
+<noyau.Bagage id="117" idVol="19" poids="7.0" position="2.2426406871192848" statut="porte"/>
+<noyau.Bagage id="118" idVol="19" poids="5.0" position="1.2426406871192848" statut="porte"/>
+<noyau.Bagage id="122" idVol="20" poids="25.0" position="0.24264068711928477" statut="porte"/>
+<noyau.Bagage id="124" idVol="20" poids="28.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="130" idVol="19" poids="5.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="132" idVol="18" poids="27.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="133" idVol="18" poids="13.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="138" idVol="18" poids="20.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="143" idVol="19" poids="3.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="144" idVol="20" poids="4.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="145" idVol="20" poids="14.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="146" idVol="19" poids="2.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="148" idVol="18" poids="28.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="149" idVol="20" poids="20.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="153" idVol="19" poids="26.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="154" idVol="18" poids="29.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="157" idVol="19" poids="5.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="162" idVol="18" poids="13.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="163" idVol="19" poids="25.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="165" idVol="20" poids="0.0" position="0.0" statut="attente"/>
+<noyau.Bagage id="166" idVol="20" poids="23.0" position="0.0" statut="attente"/>
+</noyau.TapisRoulant>
+<noyau.Toboggan distanceBagages="0.75" id="190" idArrivee="5" idDepart="2" idVol="18" limiteBagages="0.5" nbBagages="0" tempsConsomme="0.0" vitesse="5.0"/>
+<noyau.Toboggan distanceBagages="0.75" id="191" idArrivee="31" idDepart="27" idVol="19" limiteBagages="0.5" nbBagages="1" tempsConsomme="0.0" vitesse="5.0"/>
+<noyau.VoieGarage id="240" idArrivee="1" idDepart="25"/>
+<noyau.VoieGarage id="241" idArrivee="29" idDepart="30"/>
+</noyau.Aeroport>
+</ihm.FenetrePrincipale>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:b9b57ec2-7d52-4fd1-9a86-603edcf0642e'
+   isAbstract='false'
+   isLeaf='false'
+   name='Choisir direction'
+   visibility='public'>
+  <include xmi:uuid='urn:uuid:3d6cda46-1cc2-4d8c-9527-529b37bef334'>
+   <addition href='urn:uuid:44156a6f-d591-44b4-a945-d908e28a9780'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>

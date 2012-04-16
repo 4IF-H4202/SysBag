@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skin nom="classic">
+<imgIntersection lien_image="src\\ihm\\images\\SkinClassic\\Intersection.png" />
+<imgIntersectionSelection lien_image="src\\ihm\\images\\SkinClassic\\Intersection_Selection.png" />
+<imgRail lien_image="src\\ihm\\images\\SkinClassic\\Rail_100m.png" />
+<imgBagage lien_image="src\\ihm\\images\\SkinClassic\\Bagage.png" />
+<imgChariot lien_image="src\\ihm\\images\\SkinClassic\\Chariot.png" />
+<imgChariotSelection lien_image="src\\ihm\\images\\SkinClassic\\Chariot_Selection.png" />
+<imgChariotSurbrillance lien_image="src\\ihm\\images\\SkinClassic\\ChariotSurbrillance.png" />
+<imgGarage lien_image="src\\ihm\\images\\SkinClassic\\Garage.png" />
+<imgGarageSelection lien_image="src\\ihm\\images\\SkinClassic\\Garage_Selection.png" />
+<imgTapisRoulant lien_image="src\\ihm\\images\\SkinClassic\\TapisRoulant_50m.png" />
+<imgToboggan lien_image="src\\ihm\\images\\SkinClassic\\Toboggan_50m.png" />
+<imgDebutCheminPorteurSelection lien_image="src\\ihm\\images\\SkinClassic\\IntersectionDebutCheminPorteur_Selection.png" />
+<imgDebutTapisRoulant lien_image="src\\ihm\\images\\SkinClassic\\IntersectionDebutTapisRoulant.png" />
+<imgDebutTapisRoulantSurbrillance lien_image="src\\ihm\\images\\SkinClassic\\IntersectionDebutTapisRoulantSurbrillance.png" />
+<imgFinToboggan lien_image="src\\ihm\\images\\SkinClassic\IntersectionFinToboggan.png\" />
+<imgMenuChariotManuel lien_image="src\\ihm\\images\\SkinClassic\\MenuChariotManuel.png" />
+<imgMenuChariotManuel_ChargerBagage lien_image="src\\ihm\\images\\SkinClassic\\MenuChariotManuel_ChargerBagage.png" />
+<imgMenuChariotManuel_DechargerBagage lien_image="src\\ihm\\images\\SkinClassic\\MenuChariotManuel_DechargerBagage.png" />
+<imgMenuChariotManuel_Direction lien_image="src\\ihm\\images\\SkinClassic\\MenuChariotManuel_Direction.png" />
+<listImgEtincelleD>
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle1d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle2d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle3d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle4d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle5d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle6d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle7d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle8d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle9d.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle10d.png" />
+</listImgEtincelleD>
+<listImgEtincelleG>
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle1.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle2.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle3.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle4.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle5.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle6.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle7.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle8.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle9.png" />
+	<imgEtincelle lien_image="src\\ihm\\images\\SkinClassic\\Etincelle10.png" />
+</listImgEtincelleG>
+</skin>

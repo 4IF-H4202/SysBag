@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:83a3dcf9-3238-4feb-b759-9eea98ca5cb7'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VoieGarage'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:5415cf1f-9d16-4301-a62a-0b565e8df18d'>
+   <general href='urn:uuid:1b41d273-a970-43b0-8c71-232aaffb845f'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

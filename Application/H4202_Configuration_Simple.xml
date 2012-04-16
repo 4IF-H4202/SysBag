@@ -1,0 +1,51 @@
+	<ihm.FenetrePrincipale nbHeures="11" nbMin="24" nbSec="45">
+	<noyau.Aeroport id="0" largeur="14" longueur="24" distanceSecu="2" lambdaPoisson="1">
+		<noyau.Intersection id="1" x="12" y="2" />
+		<noyau.Intersection id="2" x="17" y="2" />
+		<noyau.Intersection id="3" x="17" y="7" />
+		<noyau.Intersection id="4" x="12" y="7" />
+		<noyau.Intersection id="5" x="22" y="2" />
+		<noyau.Intersection id="6" x="22" y="7" />
+		<noyau.Intersection id="25" x="2" y="2" />
+		<noyau.Intersection id="27" x="2" y="7" />
+		<noyau.Intersection id="26" x="7" y="12" />
+
+		<noyau.Rail id="7" idDepart="1" idArrivee="2"/>
+		<noyau.Rail id="8" idDepart="2" idArrivee="3" />
+		<noyau.Rail id="9" idDepart="3" idArrivee="4" />
+		<noyau.Rail id="10" idDepart="4" idArrivee="1" />
+		<noyau.Rail id="11" idDepart="1" idArrivee="3" />
+		<noyau.Rail id="26" idDepart="27" idArrivee="25"/>
+		<noyau.Rail id="28" idDepart="4" idArrivee="27"/>
+		
+		<noyau.TapisRoulant id="17" idDepart="6" idArrivee="3" distanceBagages="1" limiteBagages="4.5" vitesse="5">
+			<noyau.Bagage id="12" position="1" poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="13" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="14" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="15" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="16" position="1"  poids="30" idVol="18" status="attente"/>
+		</noyau.TapisRoulant>
+		
+		<noyau.TapisRoulant id="18" idDepart="26" idArrivee="4" distanceBagages="1" limiteBagages="4.5" vitesse="5">
+			<noyau.Bagage id="12" position="1" poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="13" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="14" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="15" position="1"  poids="30" idVol="18" status="attente"/>
+			<noyau.Bagage id="16" position="1"  poids="30" idVol="18" status="attente"/>
+		</noyau.TapisRoulant>
+		
+		<noyau.VoieGarage id="24" idDepart="25" idArrivee="1"/>
+		
+		<noyau.Chariot id="20" action="retirerBagage" positionRail="0" vitesse="5" vitesseTapis="5" idChemin="8"/>
+		<noyau.Chariot id="21" action="retirerBagage" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="7"/>
+		<noyau.Chariot id="22" action="deposerBagage" positionRail="0" vitesse="4" vitesseTapis="5" idChemin="9">
+			<noyau.Bagage id="20" position="1" poids="30" idVol="18"/>
+		</noyau.Chariot>
+		<noyau.Chariot id="23" action="retirerBagage" positionRail="0" vitesse="6" vitesseTapis="5" idChemin="10"/>
+	
+		<noyau.Vol id="18" nom="Paris_Lyon" nbBagagesMax="51"/>
+		
+		<noyau.Toboggan id="19" idDepart="2" idArrivee="5" nbBagages="35" idVol="18" distanceBagages="1" limiteBagages="0.5" vitesse="5"/>
+	
+	</noyau.Aeroport>
+	</ihm.FenetrePrincipale>

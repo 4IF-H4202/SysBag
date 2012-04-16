@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:e7462387-b2db-493d-acc7-83cde0763a6d'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueRail'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:5ae43476-ea71-4d28-bb25-dce45cd872ae'>
+   <general href='urn:uuid:7fdd8d70-e619-4a50-86af-2a00b8bb745f'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:37edd8f0-da69-4114-8f39-a0e183ab18b9'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='rail'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/Rail:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7c0b3563-45f7-4616-9f75-a90fdcc53c33'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:918e32aa-d0f9-4819-b919-83876a6ea6b0'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

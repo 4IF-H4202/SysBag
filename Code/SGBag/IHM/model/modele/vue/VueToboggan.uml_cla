@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+ <uml:Class xmi:uuid='urn:uuid:01970a9a-837a-4ca7-b077-dda9acb2fc5b'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='VueToboggan'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:07502fb0-5abe-4aa8-b215-69a6e88cce1a'>
+   <general href='urn:uuid:7fdd8d70-e619-4a50-86af-2a00b8bb745f'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:f049b095-9587-4a34-ada3-8958d097b399'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='toboggan'
+    aggregation='none'
+    visibility='package'>
+   <type href='mof:/Toboggan:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:121dba25-dfd3-43ea-9432-d4ed9ee6bf7f'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b54d5da1-da74-43d2-9b19-53c934955434'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

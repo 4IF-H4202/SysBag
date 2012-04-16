@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:56a27c56-a680-4c59-a74e-ccdc5d20c74c'
+   isAbstract='false'
+   isLeaf='false'
+   name='Recevoir reclamations'
+   visibility='public'>
+  <subject href='urn:uuid:2228b79e-a1ad-4707-a267-3cfdcb01d452'/>
+ </uml:UseCase>
+</xmi:XMI>

@@ -1,0 +1,74 @@
+10
+
+dir
+461
+http://subversion.assembla.com/svn/dev-oo/trunk/SGBag/IHM/model/modele
+http://subversion.assembla.com/svn/dev-oo
+
+
+
+2011-11-24T09:22:11.798432Z
+459
+fabien.bardy
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+13cc90c9-18a3-4b02-a349-2834f8d6db02
+
+cas_utilisation
+dir
+
+diagrammes_sequences
+dir
+
+modele_du_domaine
+dir
+
+package.uml_pck
+file
+
+
+
+
+2011-11-08T17:36:16.786000Z
+9aa486732349c8c6f807688fbff8abf0
+2011-11-08T17:40:00.303581Z
+49
+bplanche
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+387
+
+vue
+dir
+

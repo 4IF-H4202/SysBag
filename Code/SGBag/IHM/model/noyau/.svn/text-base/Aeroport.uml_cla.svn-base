@@ -1,0 +1,964 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:68e53104-e50f-4aba-88a9-d5786d4dcc87'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Aeroport'
+   visibility='public'>
+  <generalization xmi:uuid='urn:uuid:d427f44e-d1fe-4d48-94b8-efc09418c092'>
+   <general href='urn:uuid:3acca8e7-215c-4fac-9754-bfa2897eb518'/>
+  </generalization>
+  <generalization xmi:uuid='urn:uuid:8e188718-6b59-4a7d-8727-55e826057f38'>
+   <general href='urn:uuid:3acca8e7-215c-4fac-9754-bfa2897eb518'/>
+  </generalization>
+  <ownedAttribute xmi:uuid='urn:uuid:a613ccb7-9112-40aa-ba82-ec2bb1b8650c'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='distanceSecu'
+    aggregation='none'
+    visibility='protected'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ddddcf91-4fa1-48d7-bfe9-96731b9775fd'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:020464c6-07b6-4ecd-b2a5-7d3e8807b2ff'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:e819ae39-baf9-42fc-860b-07161d0996d9'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='lambdaPoisson'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:5c30c343-1923-4bad-b9de-cbeb4dc940a3'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:01fa70b7-1ef2-455c-8d9d-4eda7e487922'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:991abf87-bf37-4fdb-8492-35881760cb92'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='nbBagagesAGenerer'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:bc47a7eb-d5df-4300-a44a-83d09c6a4750'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:100e3690-c2e9-484f-8112-2edf5387e8cb'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:fd989e63-868a-4b1c-81d1-aef186493b15'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='largeurKm'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f9f0ca64-f2bf-48b5-bcda-7a8f471c0ee7'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3c504f20-131d-48b2-95f2-a8efe0916ea2'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:790f8ad8-c08a-42ed-9dc6-0da4418abbc6'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='longueurKm'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/Double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:0a7a28e1-1d4e-49d3-b93d-c6a14182bedc'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:a5c504f9-958a-4205-8a98-a1705ec3f150'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:uuid='urn:uuid:c79f68f1-e910-4d02-8f3a-48aa2b08a545'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='CreerNoeudXML'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:6e029ad9-c983-4839-9da9-2c9910175171'
+     body='&#xa;Méthode qui crée le noeud XML à partir du document en paramètre&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:235d4aca-71af-4c76-9a31-121567fb6e4b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='document'
+     direction='in'>
+    <type href='mof:/org:uml:NamedElement/w3c:uml:NamedElement/dom:uml:NamedElement/Document:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ae7c5f22-8c31-47e5-8a8e-2f6eee972c25'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b62cadf5-d449-4a64-a348-7e05a3ba5da8'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:debbc623-afcb-495f-b9b6-de9a92fd5fcd'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/org:uml:NamedElement/w3c:uml:NamedElement/dom:uml:NamedElement/Element:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:c9278336-74e2-4772-924e-e177380bbe7e'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:67243fbe-3c99-49ef-b159-9b39e8cad162'
+      body='&#xa;Méthode qui crée le noeud XML à partir du document en paramètre&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3b1020f9-4d2b-4587-a8b1-9701e85ab8b4'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:7931e581-aed5-40aa-8633-fbd33ee5a8cb'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ConstruireAPartirDeDOMXML'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:7e7693f6-523e-4e54-8828-cf977f791cb6'
+     body='&#xa;Méthode permettant le chargement de la configuration du système à partir d&apos;un fichier xml&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:b766225b-8402-4132-ac02-a287172f3c67'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='noeudDOMRacine'
+     direction='in'>
+    <type href='mof:/org:uml:NamedElement/w3c:uml:NamedElement/dom:uml:NamedElement/Element:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:90d9d91d-baaa-481b-b197-affb0d02c605'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:90b06444-dd3d-4e5b-8c37-8791b2c9eb97'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:cbd5a5f6-5a07-4532-9160-b038c82640a2'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/int:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1c4524d3-d07c-4cbf-aec1-3a8b7a15d0a0'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:d99791f1-0b58-463d-b4da-6f25e2a28c0a'
+      body='&#xa;Méthode permettant le chargement de la configuration du système à partir d&apos;un fichier xml&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:4bfc7d2c-1ba5-41a1-ac17-0711222fd636'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:49e06955-ca0c-4e63-849e-ff03ce7a49b5'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ConstruireSimulAPartirDeDOMXML'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:70b97e4b-e576-4312-b10a-eb96567ebcb0'
+     body='&#xa;Méthode permettant le chargement des éléments de la simulation à partir d&apos;un fichier xml&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:6f9d90c7-6db2-462f-9f51-d8eed4d7f45f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='noeudDOMRacine'
+     direction='in'>
+    <type href='mof:/org:uml:NamedElement/w3c:uml:NamedElement/dom:uml:NamedElement/Element:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:75ab9ac4-e62e-48ee-89b9-2704f4601ad6'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:d38e401c-3171-4e57-8449-0560c1584a08'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:f8e71b97-b0ec-41cc-a816-46ccbc654487'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/int:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:9a639bce-3c08-4bea-9992-4da6f7869cb3'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:74deb969-8e86-4bb1-881b-8fb62c5a2da4'
+      body='&#xa;Méthode permettant le chargement des éléments de la simulation à partir d&apos;un fichier xml&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:d17f6937-9c8f-42c5-a63c-6f80f92548aa'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:e72dd863-66c8-4c51-af48-cacaaf8d88d0'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Actualiser'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:417f0f23-fe73-4414-bacd-a611bfbe4f53'
+     body='&#xa;Méthode qui fait avancer tous les éléments de l&apos;aéroport en fonction du jetonTemps&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:5155f774-5cd0-4b90-85e5-50ac6a418a33'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='jetonTemps'
+     direction='in'>
+    <type href='mof:/Double:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:b0ffa812-c325-4e76-a0f3-1b2c1ea226d9'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:d5c55d9b-56be-4d45-9aff-ada32a606e4d'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:5563e0e0-9024-4e99-8536-435039c28bcd'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='simuAuto'
+     direction='in'>
+    <type href='mof:/Boolean:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:cfee9ecc-53e6-4160-aa3b-4df467f9140d'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:4f469707-dc69-4811-b505-23d4c52971fb'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:79271ab2-211f-4a30-8a48-3fe4fc3ce7fe'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f1f9d536-4f0b-40fc-bdc7-7645916c7a9e'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:046337eb-4e6e-4086-aa80-f5345c1c61c7'
+      body='&#xa;Méthode qui fait avancer tous les éléments de l&apos;aéroport en fonction du jetonTemps&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:0625ce46-b88f-4aa5-95d8-351b131c3aa3'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:f53850a9-ef4e-4897-b648-a79e20c853ac'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='genererBagagesAuto'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:72c96a89-3391-4dbb-999f-ac0ba4d2c08c'
+     body='&#xa;Génère les bagages selon la loi d&apos;arrivée et du jeton temps.&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:28e4f897-6a93-4570-a4b0-6ca05925bf19'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='jetonTps'
+     direction='in'>
+    <type href='mof:/double:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ee373e68-04f9-4fa3-84f6-7ea36eebba7e'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:f3eecca3-bd02-4338-ae58-27cab7af9326'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:6b3a6085-5cfb-4b46-ae89-f401d29e4f64'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:42b592a4-c5b3-4ccf-b402-a5225fe6e84f'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:669077a7-f51a-4853-ba3c-657c6bbde446'
+      body='&#xa;Génère les bagages selon la loi d&apos;arrivée et du jeton temps.&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:9ffe0709-1d15-4b07-8919-01706f8c4fca'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:abd8b539-8ae9-4226-8e44-46d2c591b86c'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='creerBagageAlea'
+    concurrency='sequential'
+    visibility='private'>
+   <ownedComment xmi:uuid='urn:uuid:11379c22-5ab1-43f6-ace6-20a2d7e7070e'
+     body='&#xa;Crée un nouveau bagage avec un vol choisi aléatoirement dans la liste et un poids aléatoire&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:2e380df5-3fb8-44e7-8e79-f18b4756d147'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='urn:uuid:7cd9cbd9-6e51-4d32-b3c8-8b042c649e18'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:97a62012-f5f7-4ab5-9fe8-b8aa757da5b5'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:aaff2019-d7ae-4671-b472-cabefd2a5504'
+      body='&#xa;Crée un nouveau bagage avec un vol choisi aléatoirement dans la liste et un poids aléatoire&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:ccba414c-c181-4b3c-8127-4dabc46f7422'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:edb2a164-fd48-4e4e-a63e-8ce8c30ce4f6'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='true'
+    name='poisson'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:643e8859-11ef-4482-8530-3b85e801f723'
+     body='&#xa;Méthode qui retourne le nombre de bagages à générer d&apos;après la loi de poisson et du paramètre lambda&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:682a31f6-0bed-4f6e-9748-0fbda3d2cbf6'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='lambda'
+     direction='in'>
+    <type href='mof:/double:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7c0373fd-c660-4bd0-8bdb-ed5703be93c8'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:191b0485-644f-43e2-b478-daa2098d54a0'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:949ca50f-c39b-42c8-b6e5-49606fad015c'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/double:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:cf70208e-eacf-4aa4-8788-2ffa5ae7f62a'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:754a019a-2c53-4025-954d-21b0800efd65'
+      body='&#xa;Méthode qui retourne le nombre de bagages à générer d&apos;après la loi de poisson et du paramètre lambda&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:c8a37c36-4b5f-48e2-a33b-cdb5ff25cefd'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:3415811e-ed87-4eb0-861f-267a5f063879'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='avancer'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:uuid='urn:uuid:b32b4d51-9275-4b85-be75-4ae53a34dc51'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:59e28fed-722b-43d7-84c0-52d65af91fd7'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:1dcfa113-6805-4d46-b983-5114250d1e32'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:e0c6124c-885b-40df-b459-991d55806f18'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='supprimerChemin'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:1dbb63fb-ac80-4a38-986b-8222c7966ec8'
+     body='&#xa;Méthode qui supprime le chemin en paramètre de la liste des chemins&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:924f2221-9a64-4ab0-945d-efd4f293cf1a'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='chemin'
+     direction='in'>
+    <type href='urn:uuid:c48129dc-6f08-4e66-baf6-780c5c8bbbae'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1677c1a4-e37e-40ec-8e40-57e5754af5d4'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:53c7af88-de1b-4041-aec0-78482c01212b'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:311e508b-5bd2-49ef-9b2d-c701d73e5da9'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ede8077c-10ee-458d-b940-3ad6271ba059'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:ca7dc772-c6d1-4e53-bd19-af3d8ed0ed52'
+      body='&#xa;Méthode qui supprime le chemin en paramètre de la liste des chemins&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:cf87e265-1280-4962-ab94-e15ecfc4f3d7'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:e710f1cf-0a2a-4843-8faa-20d050f448ce'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='supprimerChariot'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:d3fa34e0-be8a-429e-bf8a-279ae476e890'
+     body='&#xa;Méthode qui supprime le chariot en paramètre de la liste des chariots&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:2cf6c112-e8c3-4507-b9d3-051120cbf0aa'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='chariot'
+     direction='in'>
+    <type href='urn:uuid:78af5bff-01b3-4d5e-a343-bc79befceb6a'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:fa3f09d8-1d93-493c-b1df-d71133011e4d'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:8eb36a08-f847-4092-abd9-b58a83524e37'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:bebd0df6-933a-4a56-8d1c-0de6003aea87'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:5b85402d-ace5-4f48-a374-44c2dc4dc717'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:9b21f21d-633d-4834-bbf3-14870eef96fd'
+      body='&#xa;Méthode qui supprime le chariot en paramètre de la liste des chariots&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:932ce6e5-6fd6-4a9d-b810-ce11e79ee447'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:fed3de74-8184-493d-bc84-c06c42e43749'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='supprimerIntersection'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:5ccc4968-8b7e-41b1-90c2-3392422f1f3c'
+     body='&#xa;Méthode qui supprime l&apos;intersection en paramètre de la liste des intersections&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:e5231339-8f17-41dd-9ded-dc4c86237389'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='intersection'
+     direction='in'>
+    <type href='urn:uuid:34fdd9ed-2b8d-4acf-bd8e-13c5b1e49d3e'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:6a1629ee-90c6-4d14-9d31-1a59aa4240b0'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:276feee5-36f1-4a3e-a76d-40a433b48be0'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:c7d85126-b265-4550-98c7-13e92ab0d99b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f3235ed6-9ffe-459c-8c43-7065a1433cb2'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:fbdfb222-7a3b-433f-8e4f-daafab4efec5'
+      body='&#xa;Méthode qui supprime l&apos;intersection en paramètre de la liste des intersections&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:a263fa7f-21fd-4864-ba92-cf2d75b966eb'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:ec7ea0ce-3caa-4668-aae0-b0b8b59bf749'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='supprimerVol'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:4e58a964-0911-4b44-b21e-4718859f15de'
+     body='&#xa;Méthode qui supprime le vol en paramètre de la liste des vols&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:e64c173d-9998-4847-978d-4c59372fb0bc'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vol'
+     direction='in'>
+    <type href='urn:uuid:9d8e16c7-5d7c-42c4-a01c-0f5fc9323210'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:6bc51cf3-8874-4193-8310-e305c8b75812'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3d47aad3-4772-4643-9afc-9d1b4ac72e39'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:08e494ed-7bc6-448b-83ef-ed47c40faaa3'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:a99b91a3-9e82-47d9-978b-c9398b55b62d'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:5fa162a0-3575-4d48-b8ec-04c6955ce43a'
+      body='&#xa;Méthode qui supprime le vol en paramètre de la liste des vols&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:676f2d1f-3d72-418f-8316-62a09dd43b81'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:5ba3cfec-8ef8-4d3b-950d-57ebe682258b'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ajouterBagage'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:b02bcf12-3f31-43be-8ba0-b62136ef2da4'
+     body='&#xa;Méthode qui crée un bagage associé au vol et qui l&apos;ajoute au tapisRoulant&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:2dc6ca79-a9a2-4857-9e42-043bc25f3f7b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='tapisRoulant'
+     direction='in'>
+    <type href='urn:uuid:7a11363c-276a-4cbd-9a17-3e950e5eaad4'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e881b63f-4a52-4197-96fd-ea293bffc542'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b5c798bd-2386-4184-954e-2703a60a39e7'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:6f97ad52-dc9b-4b27-917a-5839d0064e26'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vol'
+     direction='in'>
+    <type href='urn:uuid:9d8e16c7-5d7c-42c4-a01c-0f5fc9323210'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:620cbfcd-c443-4405-b247-5beacadd8803'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:1b5c96c6-9c56-4e90-9a58-8d4ec99291e2'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:5ff58660-8e65-47af-925e-b3ff46ee3959'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:dcf51211-3b4c-4202-a026-1a0db6f86bcc'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:cf18096b-7aee-4601-892c-0d422a620d09'
+      body='&#xa;Méthode qui crée un bagage associé au vol et qui l&apos;ajoute au tapisRoulant&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:173453b7-8aef-4493-ae02-3ab68af76b95'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:f1f6520b-b8b9-4bfd-93cf-9d025a05c53c'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ajouterCheminATrajetChariot'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:e50b9f02-8cd3-413e-8fd8-f2714a9d1295'
+     body='&#xa;Méthode qui ajoute au trajet du chariot le chemin en paramètre&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:196b111d-524c-4bb0-90a9-6c49f9345789'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='chariot'
+     direction='in'>
+    <type href='urn:uuid:78af5bff-01b3-4d5e-a343-bc79befceb6a'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:5689959d-8ca3-4d74-b2a6-cacb5b63a6b8'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3db1c572-b832-4c9d-b775-9eb7ab71d26a'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:ca227e2a-626a-4df8-9e78-10dde9cd21f5'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='chemin'
+     direction='in'>
+    <type href='urn:uuid:6bda6985-7909-4229-9d09-c4078ac3a83a'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e1d772f0-2659-4aa7-ae47-38305a2efdc3'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b804b834-b6ec-4ecf-9809-b4eb49a3544d'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:816cae8c-f961-4f99-9b7b-56adad227b1b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e63740e3-73b6-427d-b4d0-bc12d04726e6'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:53ccf8a4-bcc5-4846-ab8a-f60dc390a4f9'
+      body='&#xa;Méthode qui ajoute au trajet du chariot le chemin en paramètre&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:e1fcbf75-2d98-43be-9dd4-c084e1b49243'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:5820cf39-e8d6-4fc2-8162-e7adaa0f44fa'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='prendreBagageDuTapisRoulant'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:c07c0f73-1cca-4c8b-8fd1-26a01e86c6d6'
+     body='&#xa;Méthode qui récupère le bagage du tapisRoulant à proximité du chariot en paramètre, et qui lui ajoute&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:3b99556c-f844-427a-b084-7a88a2088150'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='chariot'
+     direction='in'>
+    <type href='urn:uuid:78af5bff-01b3-4d5e-a343-bc79befceb6a'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ec284117-1a35-4368-b242-395328894f63'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:5a7cfe8a-5be5-4436-a192-b2704e508928'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:8ecd0208-6730-4401-8c55-53b1a4d46a20'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:99a13ad3-1edb-4378-8ba9-8fa68f796f5e'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:1e3da98e-b3ac-41db-b564-4957c3b28765'
+      body='&#xa;Méthode qui récupère le bagage du tapisRoulant à proximité du chariot en paramètre, et qui lui ajoute&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:2aaeb838-381d-44d4-9a7f-45dbbe835c7b'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:58f69208-b7ca-428b-a2f4-da04ded1ef6e'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='poserBagageSurToboggan'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:869af1cc-8ad0-4b0c-8dce-2a82d96c1137'
+     body='&#xa;Méthode qui pose le bagage du chariot en paramètre vers le toboggan à proximité&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:8f0ccb39-0672-4595-a809-5472573f366e'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='chariot'
+     direction='in'>
+    <type href='urn:uuid:78af5bff-01b3-4d5e-a343-bc79befceb6a'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:c6426819-d40a-48b8-9d96-5ed469b421fd'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:4ebe4662-31fe-4850-86d3-5c4ffba9e30d'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:8d707173-daeb-46f8-91ca-7ff2375d31aa'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:3bbf100b-ed6b-47ed-a53e-84f3ffdee4a6'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:956ba3b5-12c0-43c6-800a-25609a9b462d'
+      body='&#xa;Méthode qui pose le bagage du chariot en paramètre vers le toboggan à proximité&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3b6c9dad-7add-4d83-bca6-6cb10722b82a'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:e8170b79-095d-4f9f-9942-bf4ab2f7a30a'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='debloquerChariotVoieGarage'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:3ba0fb6f-16ef-44ee-8369-2fd956f4283d'
+     body='&#xa;En mode auto, sort un chariot de la voieGarage en paramètre et lui ajoute un parcours&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:299cdc8f-72cd-4947-9271-b4463c965e53'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='voieGarage'
+     direction='in'>
+    <type href='urn:uuid:e4e3bd92-6548-4bf3-9747-3631678b83c9'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:3ba2fce4-1355-454e-8312-02e4c960123c'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:786c006a-954e-4576-bcd0-afc1791638d3'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:9f5f0756-37dd-43bb-81c5-070843534f6f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:c68fcb8d-093b-4ac4-83ba-1bbfa2518bc1'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:66dc5e17-6ae1-4250-bc70-7ba9902959c5'
+      body='&#xa;En mode auto, sort un chariot de la voieGarage en paramètre et lui ajoute un parcours&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:ec08f197-f31d-45b8-a3d9-06b2a688e75d'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:355600ea-6f22-4cf5-a466-bd9483f26f3a'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='debloquerChariotVoieGarageManuel'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:8742cdd7-53c2-4950-9fa8-cde4df052a53'
+     body='&#xa;En mode manuel, sort un chariot de la voieGarage en paramètre&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:791defd0-0c85-4b03-bf48-9d5aa090b138'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='voieGarage'
+     direction='in'>
+    <type href='urn:uuid:e4e3bd92-6548-4bf3-9747-3631678b83c9'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:af5209d0-3e58-48dc-80c7-11a8649ae6ab'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:23002e88-51cf-420d-bd62-a67384fa9ab9'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:uuid='urn:uuid:f50c7bb3-c63d-4991-b5b5-6d726cbccc2c'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:baaaff28-fbcd-4e07-b0c9-c613a87bec53'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:3e154330-c824-4bc9-b257-c07cb0563ecc'
+      body='&#xa;En mode manuel, sort un chariot de la voieGarage en paramètre&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:421b8531-4454-4bb5-b4fc-7340ae0cbcd0'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:20c55afb-24b7-4667-988e-913b89bc91f4'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='debloquerChariotsAttente'
+    concurrency='sequential'
+    visibility='private'>
+   <ownedComment xmi:uuid='urn:uuid:71809283-7b50-43b1-8514-b707dfb13d6d'
+     body='&#xa;Méthode qui met à vrai l&apos;attribut estArrete de tous les chariots de la liste chariot&#xa;&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:200c3346-51b1-4206-b4f7-18277d365f50'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f5edd082-4718-4f44-a001-35d5986d4e8d'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:df60f5c8-ee1f-4328-b133-d95855dd04ac'
+      body='&#xa;Méthode qui met à vrai l&apos;attribut estArrete de tous les chariots de la liste chariot&#xa;&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:f93a5068-7ea6-4af3-8f74-dd2eb6d6fa75'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:646ebeb6-25f2-41d0-afa9-bf6f4866f963'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='gettNbBagagesEnDeplacement'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:a627396c-a631-4a78-b70e-748cd7cab689'
+     body='&#xa;Méthode qui retourne le nombre total de chariots en déplacement dans l&apos;ensemble de l&apos;aéroport&#xa;'/>
+   <ownedParameter xmi:uuid='urn:uuid:918991de-aca1-4b37-adef-19ff5a0bd2fe'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/Integer:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:77ac69ac-0e08-42c5-af82-19a1563290f4'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:uuid='urn:uuid:2900633f-5d4d-4683-9572-6426e37d4915'
+      body='&#xa;Méthode qui retourne le nombre total de chariots en déplacement dans l&apos;ensemble de l&apos;aéroport&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:37e97a43-812b-44e2-ac93-cb1219b9aeda'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:eb6e6a36-4681-4177-82ae-b91aaa1ce984'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Aeroport'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:uuid='urn:uuid:8cfbe877-69de-4fbb-873a-1a7fa5daa863'
+     body='&#xa;Constructeur de la classe&#xa;'/>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

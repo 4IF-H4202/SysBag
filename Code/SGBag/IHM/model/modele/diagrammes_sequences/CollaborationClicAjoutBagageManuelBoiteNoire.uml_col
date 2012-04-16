@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Collaboration xmi:uuid='urn:uuid:3dc9a5a8-af24-497a-b51a-33bc3578ef3f'
+   isAbstract='false'
+   isLeaf='false'
+   name='CollaborationClicAjoutBagageManuelBoiteNoire'
+   visibility='public'>
+  <ownedBehavior xmi:type='uml:Interaction' xmi:uuid='urn:uuid:ea5cc24e-93db-4dfe-b39d-7bcecc6b5913'
+    isAbstract='false'
+    isActive='false'
+    isLeaf='false'
+    isReentrant='false'
+    name='ClicAjoutBagage Boite Noire'
+    visibility='public'/>
+ </uml:Collaboration>
+</xmi:XMI>

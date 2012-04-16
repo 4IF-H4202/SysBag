@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:DI='http://xmlns.omg.org/DI/2.0'>
+  <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.1.0'/>
+  <DI:Diagram xmi:id='id46173cc9-e811-4d3c-b814-292099436c23' zoom='0.0'>
+    <contained xmi:type='DI:GraphNode' xmi:id='idf49573f1-8d4e-4320-bf68-cf703f8ee4b7'>
+      <contained xmi:type='DI:GraphNode' xmi:id='id32b54efd-8053-4c24-9f74-272950d32426'>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id0a590a42-2b2b-4e1c-9c49-681f393e37e4'>
+        <contained xmi:type='DI:GraphNode' xmi:id='iddb768ef3-750a-4699-97bc-99721b9ee54e'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='AttributeList'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='id59b17b88-54f3-4880-9e07-09a9a45d8523'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='OperationList'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='idebfd5fa3-de9f-438d-8e01-d443e0f1e39c'>
+        <contained xmi:type='DI:GraphNode' xmi:id='id721fe990-39ce-44c3-bb8a-c093b36092e5'>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Component'/>
+          <size height='9.999999682655225E-21' width='9.999999682655225E-21'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='id6414d630-fe59-4f17-ade7-b7c9fa96522a'>
+          <position x='-120.0' y='-120.0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='EXPANDED'/>
+        <size height='600.0' width='690.0'/>
+      </contained>
+      <position x='90.0' y='45.0'/>
+      <property key='showAttributeType' value='true'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='showPackage' value='false'/>
+      <property key='showAttributeStatic' value='true'/>
+      <property key='filterMethodViz' value='PUBLIC PROTECTED PACKAGE PRIVATE'/>
+      <property key='layoutLifelines' value='false'/>
+      <property key='excludeMethodFilter' value=''/>
+      <property key='showAttributes' value='true'/>
+      <property key='showMethodType' value='true'/>
+      <property key='sortMethodsAlpha' value='true'/>
+      <property key='filterAttrViz' value='PUBLIC PROTECTED PACKAGE PRIVATE'/>
+      <property key='showOperations' value='true'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='operationShowParameters' value='0'/>
+      <property key='showStereotype' value='false'/>
+      <property key='sortAttributesAlpha' value='true'/>
+      <property key='showMethodStatic' value='true'/>
+      <property key='fontColor' value='#0'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <property key='excludeAttrFilter' value=''/>
+      <property key='showAttributeVisibility' value='true'/>
+      <property key='fillColor' value='#ffefb5'/>
+      <property key='showMethodVisibility' value='true'/>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='uml:Interaction:urn:uuid:14902a26-e3d9-493e-b1a5-a56a51aed3ab' presentation='EXPANDED'/>
+      <size height='600.0' width='690.0'/>
+    </contained>
+    <property key='ContainerLayoutStyle' value='1'/>
+    <property key='antialiasText' value='true'/>
+    <property key='showClassifierOwnedEnds' value='false'/>
+    <property key='PageOrientation' value='0'/>
+    <property key='showGrid' value='true'/>
+    <property key='showNavIconWhenBothEnds' value='false'/>
+    <property key='DiagramLayoutStyle' value='1'/>
+    <property key='showNonNavigable' value='false'/>
+    <property key='snapToGrid' value='true'/>
+    <property key='gridSize' value='15'/>
+    <property key='minLayoutDistance' value='40'/>
+    <property key='EdgeCrossingType' value='0'/>
+    <property key='maxShapeWidth' value='200'/>
+    <property key='maxEntriesInShape' value='10'/>
+    <property key='PaperOrientation' value='Landscape'/>
+    <property key='PrintAreaX' value='0.0'/>
+    <property key='PrintAreaY' value='0.0'/>
+    <property key='PrintAreaWidth' value='0.0'/>
+    <property key='PrintAreaHeight' value='0.0'/>
+    <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='sequence_diagram'/>
+  </DI:Diagram>
+</xmi:XMI>
